@@ -10,9 +10,11 @@ If nailed it, the card is discarded, the participant has a card less, if zero he
 
 If wrong, the card is discarded, the partipant gets another one from the deck.
 
+
 ## What this project is about
 
 Tools and whatever necessary to build PDFs/images/files to build the game.
+
 
 ### Components/parts/information:
 
@@ -27,3 +29,10 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
     - side B: same generic background, with all the rest of the info; need a design here (ToDo)
 
 - Tools/steps for putting everything together
+
+
+### Steps
+
+1. Run `get_countries_data`, will leave a json with some data for all countries
+
+2. Run `fill_country_data', which will improve each item in that json with more data from each country page
