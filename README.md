@@ -19,10 +19,10 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
 ### Components/parts/information:
 
 - Raw information; for each country:
-    - its name: ToDo
-    - its flag: ToDo
-    - other textual info (capital city, languages, continent, etc.): ToDo
-    - an image representing the position of the country in the world map: ToDo
+    - its name
+    - its flag
+    - other textual info (capital city, languages, continent, etc.)
+    - an image representing the position of the country in the world map
 
 - Look and feel of each card
     - side A: a generic background (ToDo) with country's big flag
@@ -33,6 +33,6 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
 
 ### Steps
 
-1. Run `get_countries_data`, will leave a json with some data for all countries
+1. Run `get_countries_data.py`, will leave a json with some data for all countries
 
-2. Run `fill_country_data', which will improve each item in that json with more data from each country page
+2. Run `fill_country_info.py', which will improve each item in that json with more data from each country page

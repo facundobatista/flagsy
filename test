@@ -1,0 +1,3 @@
+#!/bin/bash
+
+fades -r requirements.txt -x python -m pytest -s "$@"
