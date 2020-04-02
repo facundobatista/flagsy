@@ -8,7 +8,7 @@ import shutil
 import requests  # fades
 
 
-PROCESSED_FLAG_NAME = "__processed__"
+PROCESSED_FLAG = "__processed__"
 IMAGES_CONTAINER = "__images__"
 
 IMAGE_QUERY_URL = (
@@ -47,11 +47,13 @@ def parse_image_url(data):
 def get_image_url(filename):
     """Get the image url from the filename."""
     query_url = IMAGE_QUERY_URL.format(filename=filename)
-    print("====== image query", repr(query_url))
-    raw = requests.get(query_url)
-    data = json.loads(raw)
-    print("========= data", data)
-    image_url = parse_image_url(data)
+    resp = requests.get(query_url)
+    data = json.loads(resp.text)
+    try:
+        image_url = parse_image_url(data)
+    except Exception:
+        print("ERROR: crashed while processing stuff from", query_url)
+        raise
     return image_url
 
 
@@ -93,41 +95,77 @@ def simplify(text):
         parts = text.split('|')
         return simplify(parts[-1])
 
-    # nothing to keep digging
+    # nothing to keep digging, just make sure first letter is uppercase
+    if text and text[0].islower():
+        text = text[0].upper() + text[1:]
     return text
+
+
+class CountryInfo:
+    def __init__(self, data):
+        # get real data from response json
+        # print("======== source ", data)
+        (page,) = data['query']['pages'].values()
+        (revinfo,) = page['revisions']
+        slot = revinfo['slots']['main']
+        assert slot['contentformat'] == 'text/x-wiki'
+        rawinfo = slot['*']
+        # print("======== info", rawinfo)
+
+        # get those starting with pipe (removing extra spaces first!) and build a dict using
+        # the identifier until the equal sign as key
+        elements = [x.strip() for x in rawinfo.split('\n')]
+        elements = [x[1:] for x in elements if x.startswith('|')]
+        elements = [x.split('=', 1) for x in elements]
+        elements = {k.strip(): v.strip() for k, v in elements}
+        # print("======== elements", elements)
+        self.elements = elements
+
+    def has(self, key):
+        """Check if has the key."""
+        return key in self.elements
+
+    def get(self, *keys, silent=False):
+        """Try to get multiple keys, returning warned empty string."""
+        for k in keys:
+            try:
+                return self.elements[k]
+            except KeyError:
+                pass
+        if not silent:
+            print("    WARNING! keys not found:", keys)
+        return ""
 
 
 def parse_country_info(data):
     """Parse the country info."""
-    # get real data from response json
-    (page,) = data['query']['pages'].values()
-    (revinfo,) = page['revisions']
-    assert revinfo['contentformat'] == 'text/x-wiki'
-    rawinfo = revinfo['*']
+    ci = CountryInfo(data)
 
-    # get those starting with pipe (removing extra spaces first!) and build a dict using
-    # the identifier until the equal sign as key
-    elements = [x.strip() for x in rawinfo.split('\n')]
-    elements = [x[1:] for x in elements if x.startswith('|')]
-    elements = [x.split('=', 1) for x in elements]
-    elements = {k.strip(): v.strip() for k, v in elements}
+    # different ways to detect if this is not really a country, that is just something that
+    # is really part of other country
+    if ci.has('país'):
+        return
+    if "Territorio" in ci.get('gobierno', silent=False):
+        return
 
     # the name(s) extraction is quite specific
-    names = RE_BR.split(elements['nombre_oficial'])
+    names = RE_BR.split(ci.get('nombre_oficial'))
     name_translated = simplify(names[0])
     if len(names) > 1:
         name_original = simplify(names[1])
+    else:
+        name_original = None
 
     # these are multiples
-    parts = RE_BR.split(elements['idiomas_oficiales'])
+    parts = RE_BR.split(ci.get('idiomas_oficiales', 'idioma_oficial'))
     languages = ", ".join(map(simplify, parts))
-    parts = RE_BR.split(elements['gentilicio'])
+    parts = RE_BR.split(ci.get('gentilicio'))
     demonyms = ", ".join(map(simplify, parts))
 
     # the rest is simpler
-    flag_url = elements['imagen_bandera']
-    world_location_url = elements['imagen_mapa']
-    capital = simplify(elements['capital'])
+    flag_url = ci.get('imagen_bandera')
+    world_location_url = ci.get('imagen_mapa')
+    capital = simplify(ci.get('capital'))
 
     result = {
         'name_translated': name_translated,
@@ -145,31 +183,36 @@ def parse_country_info(data):
 
 def process(full_url):
     """Process each country's page and get extra info."""
-    print("====== processing", full_url)
     country = full_url.split('/')[-1]
     query_url = COUNTRY_INFO_URL.format(country=country)
-    print("====== country query", repr(query_url))
-    raw = requests.get(query_url)
-    data = json.loads(raw)
-    print("========= data", data)
-    country_info = parse_country_info(data)
+    resp = requests.get(query_url)
+    data = json.loads(resp.text)
+    try:
+        country_info = parse_country_info(data)
+    except Exception:
+        print("ERROR: crashed while processing stuff from", query_url)
+        raise
     return country_info
 
 
 def complete(db):
     """Complete the DB."""
     for item in db:
-        print("====== item", item)
-        if item.get(PROCESSED_FLAG_NAME):
+        if item.get(PROCESSED_FLAG):
             continue
 
-        print("Processing", repr(item['code']))
+        print("Processing", repr(item['name']), item['url'])
         country_info = process(item['url'])
-        for field_name, image_name in country_info.pop(IMAGES_CONTAINER):
+        if country_info is None:
+            item[PROCESSED_FLAG] = True
+            print("Skipping!", item)
+            continue
+
+        for field_name, image_name in country_info.pop(IMAGES_CONTAINER).items():
             country_info[field_name] = get_image_url(image_name)
 
         item.update(country_info)
-        item[PROCESSED_FLAG_NAME] = True
+        item[PROCESSED_FLAG] = True
 
 
 def _backup(filepath):

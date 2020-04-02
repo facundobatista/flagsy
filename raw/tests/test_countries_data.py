@@ -21,7 +21,7 @@ def test_parse_image_simple():
 
 def test_country_info_afganistán():
     data = _get_fixture('country_info_afganistán.json')
-    final_url = parse_country_info(data)
+    result = parse_country_info(data)
     should = {
         'name_translated': 'República Islámica de Afganistán',
         'name_original': 'د افغانستان اسلامي جمهوریت',
@@ -33,12 +33,12 @@ def test_country_info_afganistán():
         'flag_url': 'Flag of Afghanistan.svg',
         'world_location_url': 'Afghanistan (orthographic projection).svg',
     }
-    assert final_url == should
+    assert result == should
 
 
 def test_country_info_alemania():
     data = _get_fixture('country_info_alemania.json')
-    final_url = parse_country_info(data)
+    result = parse_country_info(data)
     should = {
         'name_translated': 'República Federal de Alemania',
         'name_original': 'Bundesrepublik Deutschland',
@@ -50,4 +50,33 @@ def test_country_info_alemania():
         'flag_url': 'Flag of Germany.svg',
         'world_location_url': 'EU-Germany.svg',
     }
-    assert final_url == should
+    assert result == should
+
+
+def test_country_info_aland():
+    data = _get_fixture('country_info_aland.json')
+    result = parse_country_info(data)
+    assert result is None
+
+
+def test_country_info_andorra():
+    data = _get_fixture('country_info_andorra.json')
+    result = parse_country_info(data)
+    should = {
+        'name_translated': 'Principado de Andorra',
+        'name_original': "Principat d'Andorra",
+        'capital_name': 'Andorra la Vieja',
+        'languages': 'Catalán',
+        'demonyms': 'Andorrano/na',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Andorra.svg',
+        'world_location_url': 'Location Andorra Europe.png',
+    }
+    assert result == should
+
+
+def test_country_info_anguila():
+    data = _get_fixture('country_info_anguila.json')
+    result = parse_country_info(data)
+    assert result is None
