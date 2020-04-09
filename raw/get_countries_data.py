@@ -6,14 +6,13 @@ import requests  # fades
 from bs4 import BeautifulSoup  # fades
 
 BASE_URL = "https://es.wikipedia.org"
-DATA_SRC = "/wiki/ISO_3166-1"
-TABLE_TITLE = 'Nombre ISO oficial del país o territorio'
+DATA_SRC = "/wiki/Anexo:Países"
+TABLE_TITLE = 'Forma de gobierno\n'
 
 HEADERS = [
     ('name', 'Nombre común'),
-    ('isoname', 'Nombre ISO oficial del país o territorio'),
-    ('code', 'Código alfa-3'),
-    ('notes', 'Observaciones'),
+    ('urlitem', 'Estado(forma oficial)'),
+    ('continent', 'Continente'),
 ]
 
 # get the page
@@ -34,15 +33,21 @@ table_data = []
 for row in rows:
     columns = row.find_all('td')
     item = {}
+    table_data.append(item)
+
     for column_id, colum_pos in col_positions:
         column_data = columns[colum_pos]
-        if column_id == 'name':
-            link = column_data.find('a')
-            item['name'] = link.text.strip()
-            item['url'] = BASE_URL + link['href']
+        if column_id == 'urlitem':
+            # find the proper link, not images, not cites, etc
+            for link in column_data.find_all('a'):
+                url = link['href']
+                if url.startswith('/wiki/') and ':' not in url:
+                    break
+            else:
+                raise ValueError("URL not found: " + repr(column_data))
+            item['url'] = BASE_URL + url
         else:
             item[column_id] = column_data.text.strip()
-    table_data.append(item)
 
 with open("countries_data.json", "wt", encoding="utf8") as fh:
     json.dump(table_data, fh)

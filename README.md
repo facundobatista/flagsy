@@ -35,4 +35,6 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
 
 1. Run `get_countries_data.py`, will leave a json with some data for all countries
 
-2. Run `fill_country_info.py', which will improve each item in that json with more data from each country page
+2. Run `get_coi_data.py`, will leave a json with some data for COI codes
+
+3. Run `fill_country_info.py', which will improve each item in the countries json data

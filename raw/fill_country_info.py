@@ -4,6 +4,7 @@ import json
 import os
 import re
 import shutil
+from urllib import parse
 
 import requests  # fades
 
@@ -46,7 +47,7 @@ def parse_image_url(data):
 
 def get_image_url(filename):
     """Get the image url from the filename."""
-    query_url = IMAGE_QUERY_URL.format(filename=filename)
+    query_url = IMAGE_QUERY_URL.format(filename=parse.quote(filename))
     resp = requests.get(query_url)
     data = json.loads(resp.text)
     try:
@@ -77,6 +78,8 @@ def simplify(text):
 
     # remove references
     text = re.sub('<ref>.*?</ref>', '', text)
+    if '<ref>' in text:
+        text = text[:text.index('<ref>')]
 
     # reduce gender variations: Alemán, -na -> Alemán/na
     text = text.replace(", -", "/")
@@ -116,7 +119,7 @@ class CountryInfo:
         # the identifier until the equal sign as key
         elements = [x.strip() for x in rawinfo.split('\n')]
         elements = [x[1:] for x in elements if x.startswith('|')]
-        elements = [x.split('=', 1) for x in elements]
+        elements = [x.split('=', 1) for x in elements if '=' in x]
         elements = {k.strip(): v.strip() for k, v in elements}
         # print("======== elements", elements)
         self.elements = elements
@@ -159,13 +162,18 @@ def parse_country_info(data):
     # these are multiples
     parts = RE_BR.split(ci.get('idiomas_oficiales', 'idioma_oficial'))
     languages = ", ".join(map(simplify, parts))
+
     parts = RE_BR.split(ci.get('gentilicio'))
     demonyms = ", ".join(map(simplify, parts))
+
+    # get the code
+    full_iso_code = simplify(ci.get('código_ISO'))
+    iso_code = full_iso_code.split('/')[1].strip()
 
     # the rest is simpler
     flag_url = ci.get('imagen_bandera')
     world_location_url = ci.get('imagen_mapa')
-    capital = simplify(ci.get('capital'))
+    capital = simplify(ci.get('capital', 'capital (y ciudad más poblada)'))
 
     result = {
         'name_translated': name_translated,
@@ -173,6 +181,7 @@ def parse_country_info(data):
         'capital_name': capital,
         'languages': languages,
         'demonyms': demonyms,
+        'iso_code': iso_code,
     }
     result[IMAGES_CONTAINER] = {
         'flag_url': flag_url,
@@ -195,9 +204,9 @@ def process(full_url):
     return country_info
 
 
-def complete(db):
+def complete(main_db, coi_db):
     """Complete the DB."""
-    for item in db:
+    for item in main_db:
         if item.get(PROCESSED_FLAG):
             continue
 
@@ -208,8 +217,18 @@ def complete(db):
             print("Skipping!", item)
             continue
 
+        # process images
         for field_name, image_name in country_info.pop(IMAGES_CONTAINER).items():
             country_info[field_name] = get_image_url(image_name)
+
+        # process code
+        iso_code = country_info.pop('iso_code')
+        coi_code = coi_db[item['url']]
+        if iso_code == coi_code:
+            code = iso_code
+        else:
+            code = "{}/{}".format(coi_code, iso_code)
+        country_info['code'] = code
 
         item.update(country_info)
         item[PROCESSED_FLAG] = True
@@ -228,21 +247,23 @@ def _backup(filepath):
     return backup_filepath
 
 
-def main(filepath):
+def main(main_filepath, coi_filepath):
     """Wrapper to be resilient about file handling."""
-    db_backup = _backup(filepath)
+    db_backup = _backup(main_filepath)
 
     # load stuff
-    with open(filepath, "rt", encoding="ascii") as fh:
-        db = json.load(fh)
-    print("DB loaded ok")
+    with open(main_filepath, "rt", encoding="ascii") as fh:
+        main_db = json.load(fh)
+    with open(coi_filepath, "rt", encoding="ascii") as fh:
+        coi_db = json.load(fh)  # no backup on this, read only!
+    print("DBs loaded ok")
 
     try:
-        complete(db)
+        complete(main_db, coi_db)
     finally:
         print("Writing DB")
-        with open(filepath, "wt", encoding="ascii") as fh:
-            json.dump(db, fh)
+        with open(main_filepath, "wt", encoding="ascii") as fh:
+            json.dump(main_db, fh)
 
         # all went fine, remove old backup
         if db_backup:
@@ -251,11 +272,12 @@ def main(filepath):
 
 
 if __name__ == "__main__":
-    db_filepath = 'countries_data.json'
+    main_db_filepath = 'countries_data.json'
+    coi_db_filepath = 'coi_data.json'
 
-    if not os.path.exists(db_filepath):
-        print("ERROR: Missing needed file {!r}".format(db_filepath))
-        print("Please check README.")
-        exit()
+    for fpath in (main_db_filepath, coi_db_filepath):
+        if not os.path.exists(fpath):
+            print("ERROR: Missing needed file {!r} -- Please check README.".format(fpath))
+            exit()
 
-    main(db_filepath)
+    main(main_db_filepath, coi_db_filepath)

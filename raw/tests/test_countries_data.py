@@ -28,6 +28,7 @@ def test_country_info_afganistán():
         'capital_name': 'Kabul',
         'languages': 'Pastún, Darí (persa)',
         'demonyms': 'Afgano/a',
+        'iso_code': 'AFG',
     }
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of Afghanistan.svg',
@@ -45,18 +46,13 @@ def test_country_info_alemania():
         'capital_name': 'Berlín',
         'languages': 'Alemán',
         'demonyms': 'Alemán/na, Germano/na, Tudesco/ca',
+        'iso_code': 'DEU',
     }
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of Germany.svg',
         'world_location_url': 'EU-Germany.svg',
     }
     assert result == should
-
-
-def test_country_info_aland():
-    data = _get_fixture('country_info_aland.json')
-    result = parse_country_info(data)
-    assert result is None
 
 
 def test_country_info_andorra():
@@ -68,6 +64,7 @@ def test_country_info_andorra():
         'capital_name': 'Andorra la Vieja',
         'languages': 'Catalán',
         'demonyms': 'Andorrano/na',
+        'iso_code': 'AND',
     }
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of Andorra.svg',
@@ -76,7 +73,37 @@ def test_country_info_andorra():
     assert result == should
 
 
-def test_country_info_anguila():
-    data = _get_fixture('country_info_anguila.json')
+def test_country_info_barbados():
+    data = _get_fixture('country_info_barbados.json')
     result = parse_country_info(data)
-    assert result is None
+    should = {
+        'name_translated': 'Barbados',
+        'name_original': "Barbados",
+        'capital_name': 'Bridgetown',
+        'languages': 'Inglés',
+        'demonyms': 'Barbadense',
+        'iso_code': 'BRB',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Barbados.svg',
+        'world_location_url': 'BRB_orthographic.svg',
+    }
+    assert result == should
+
+
+def test_country_info_banglades():
+    data = _get_fixture('country_info_bangladés.json')
+    result = parse_country_info(data)
+    should = {
+        'name_translated': 'República Popular de Bangladés',
+        'name_original': "গণপ্রজাতন্ত্রী বাংলাদেশ",
+        'capital_name': 'Daca',
+        'languages': 'Bengalí',
+        'demonyms': 'Bangladesí',
+        'iso_code': 'BGD',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Bangladesh.svg',
+        'world_location_url': 'Bangladesh (orthographic projection).svg',
+    }
+    assert result == should
