@@ -21,7 +21,7 @@ def test_parse_image_simple():
 
 def test_country_info_afganistán():
     data = _get_fixture('country_info_afganistán.json')
-    result = parse_country_info(data)
+    result = parse_country_info('Afganistán', data)
     should = {
         'name_translated': 'República Islámica de Afganistán',
         'name_original': 'د افغانستان اسلامي جمهوریت',
@@ -39,7 +39,7 @@ def test_country_info_afganistán():
 
 def test_country_info_alemania():
     data = _get_fixture('country_info_alemania.json')
-    result = parse_country_info(data)
+    result = parse_country_info('Alemania', data)
     should = {
         'name_translated': 'República Federal de Alemania',
         'name_original': 'Bundesrepublik Deutschland',
@@ -57,7 +57,7 @@ def test_country_info_alemania():
 
 def test_country_info_andorra():
     data = _get_fixture('country_info_andorra.json')
-    result = parse_country_info(data)
+    result = parse_country_info('Andorra', data)
     should = {
         'name_translated': 'Principado de Andorra',
         'name_original': "Principat d'Andorra",
@@ -75,7 +75,7 @@ def test_country_info_andorra():
 
 def test_country_info_barbados():
     data = _get_fixture('country_info_barbados.json')
-    result = parse_country_info(data)
+    result = parse_country_info('Barbados', data)
     should = {
         'name_translated': 'Barbados',
         'name_original': "Barbados",
@@ -93,7 +93,7 @@ def test_country_info_barbados():
 
 def test_country_info_banglades():
     data = _get_fixture('country_info_bangladés.json')
-    result = parse_country_info(data)
+    result = parse_country_info('Bangladés', data)
     should = {
         'name_translated': 'República Popular de Bangladés',
         'name_original': "গণপ্রজাতন্ত্রী বাংলাদেশ",
@@ -105,5 +105,23 @@ def test_country_info_banglades():
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of Bangladesh.svg',
         'world_location_url': 'Bangladesh (orthographic projection).svg',
+    }
+    assert result == should
+
+
+def test_country_info_comoras():
+    data = _get_fixture('country_info_comoras.json')
+    result = parse_country_info('Comoras', data)
+    should = {
+        'name_translated': 'Unión de las Comoras',
+        'name_original': 'الاتحاد القمري',
+        'capital_name': 'Moroni',
+        'languages': 'Árabe, Suajili (Comorense), Francés',
+        'demonyms': 'Comorense',
+        'iso_code': 'COM',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of the Comoros.svg',
+        'world_location_url': 'Comoros (orthographic projection).svg',
     }
     assert result == should

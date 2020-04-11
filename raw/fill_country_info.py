@@ -28,6 +28,11 @@ COUNTRY_INFO_URL = (
     "&titles={country}"  # the country of which we want the info
 )
 
+# some info is simply wrong in Wikipedia, we overrule that here
+OVERRULE = {
+    'Comoras': {'código_ISO': "KM / COM / 174"},
+}
+
 # some regexes
 RE_BR = re.compile(r"<br(?: )?(?:/)?>")
 RE_REDUX = re.compile(r"""
@@ -105,7 +110,9 @@ def simplify(text):
 
 
 class CountryInfo:
-    def __init__(self, data):
+    def __init__(self, country, data):
+        self.overrule = OVERRULE.get(country, {})
+
         # get real data from response json
         # print("======== source ", data)
         (page,) = data['query']['pages'].values()
@@ -126,13 +133,13 @@ class CountryInfo:
 
     def has(self, key):
         """Check if has the key."""
-        return key in self.elements
+        return key in self.overrule or key in self.elements
 
     def get(self, *keys, silent=False):
         """Try to get multiple keys, returning warned empty string."""
         for k in keys:
             try:
-                return self.elements[k]
+                return self.overrule.get(k, self.elements[k])
             except KeyError:
                 pass
         if not silent:
@@ -140,15 +147,15 @@ class CountryInfo:
         return ""
 
 
-def parse_country_info(data):
+def parse_country_info(country, data):
     """Parse the country info."""
-    ci = CountryInfo(data)
+    ci = CountryInfo(country, data)
 
     # different ways to detect if this is not really a country, that is just something that
     # is really part of other country
     if ci.has('país'):
         return
-    if "Territorio" in ci.get('gobierno', silent=False):
+    if "Territorio" in ci.get('gobierno', silent=True):
         return
 
     # the name(s) extraction is quite specific
@@ -197,7 +204,7 @@ def process(full_url):
     resp = requests.get(query_url)
     data = json.loads(resp.text)
     try:
-        country_info = parse_country_info(data)
+        country_info = parse_country_info(country, data)
     except Exception:
         print("ERROR: crashed while processing stuff from", query_url)
         raise
@@ -223,7 +230,7 @@ def complete(main_db, coi_db):
 
         # process code
         iso_code = country_info.pop('iso_code')
-        coi_code = coi_db[item['url']]
+        coi_code = coi_db.get(item['url'], coi_db[item['name']])
         if iso_code == coi_code:
             code = iso_code
         else:
