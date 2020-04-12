@@ -12,6 +12,8 @@ import requests  # fades
 PROCESSED_FLAG = "__processed__"
 IMAGES_CONTAINER = "__images__"
 
+WIKI_BASE_URL = 'https://es.wikipedia.org/wiki/'
+
 IMAGE_QUERY_URL = (
     "https://commons.wikimedia.org/w/api.php?action=query"  # base query
     "&prop=imageinfo"  # getting the image info...
@@ -74,7 +76,7 @@ def extract_payload(m):
 
 def simplify(text):
     """Simplify complex text, removing preprocessors and other markup."""
-    text = text.strip().strip('.')
+    text = text.strip().strip('.').replace('_', ' ')
 
     # reduce the typical preprocessor [[maybe|useful]]
     reduced = RE_REDUX.sub(extract_payload, text)
@@ -120,12 +122,15 @@ class CountryInfo:
         slot = revinfo['slots']['main']
         assert slot['contentformat'] == 'text/x-wiki'
         rawinfo = slot['*']
-        # print("======== info", rawinfo)
+        # print("======== info", repr(rawinfo))
+
+        # sometimes items are not properly separated by \n, doing our best here...
+        rawinfo = re.sub(r'(\|\w+=)', lambda x: '\n' + x.groups()[0], rawinfo)
 
         # get those starting with pipe (removing extra spaces first!) and build a dict using
         # the identifier until the equal sign as key
         elements = [x.strip() for x in rawinfo.split('\n')]
-        elements = [x[1:] for x in elements if x.startswith('|')]
+        elements = [x.split('|', 1)[1] for x in elements if '|' in x]
         elements = [x.split('=', 1) for x in elements if '=' in x]
         elements = {k.strip(): v.strip() for k, v in elements}
         # print("======== elements", elements)
@@ -178,8 +183,8 @@ def parse_country_info(country, data):
     iso_code = full_iso_code.split('/')[1].strip()
 
     # the rest is simpler
-    flag_url = ci.get('imagen_bandera')
-    world_location_url = ci.get('imagen_mapa')
+    flag_url = simplify(ci.get('imagen_bandera'))
+    world_location_url = simplify(ci.get('imagen_mapa'))
     capital = simplify(ci.get('capital', 'capital (y ciudad más poblada)'))
 
     result = {
@@ -230,7 +235,9 @@ def complete(main_db, coi_db):
 
         # process code
         iso_code = country_info.pop('iso_code')
-        coi_code = coi_db.get(item['url'], coi_db[item['name']])
+        coi_code = coi_db.get(item['url'])
+        if coi_code is None:
+            coi_code = coi_db[WIKI_BASE_URL + item['name']]
         if iso_code == coi_code:
             code = iso_code
         else:

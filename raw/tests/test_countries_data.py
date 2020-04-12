@@ -86,7 +86,7 @@ def test_country_info_barbados():
     }
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of Barbados.svg',
-        'world_location_url': 'BRB_orthographic.svg',
+        'world_location_url': 'BRB orthographic.svg',
     }
     assert result == should
 
@@ -123,5 +123,41 @@ def test_country_info_comoras():
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of the Comoros.svg',
         'world_location_url': 'Comoros (orthographic projection).svg',
+    }
+    assert result == should
+
+
+def test_country_info_dominica():
+    data = _get_fixture('country_info_dominica.json')
+    result = parse_country_info('Dominica', data)
+    should = {
+        'name_translated': 'Mancomunidad de Dominica',
+        'name_original': 'Commonwealth of Dominica',
+        'capital_name': 'Roseau',
+        'languages': 'Inglés',
+        'demonyms': 'Dominiqués/esa',
+        'iso_code': 'DMA',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Dominica.svg',
+        'world_location_url': 'Dominica on the globe (Americas centered).svg',
+    }
+    assert result == should
+
+
+def test_country_info_irak():
+    data = _get_fixture('country_info_irak.json')
+    result = parse_country_info('Irak', data)
+    should = {
+        'name_translated': 'República de Irak',
+        'name_original': 'جمهورية ألعراق',
+        'capital_name': 'Bagdad',
+        'languages': 'Árabe y kurdo',
+        'demonyms': 'Iraquí',
+        'iso_code': 'IRQ',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Iraq.svg',
+        'world_location_url': 'Iraq (orthographic projection).svg',
     }
     assert result == should
