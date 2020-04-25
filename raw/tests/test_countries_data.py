@@ -161,3 +161,57 @@ def test_country_info_irak():
         'world_location_url': 'Iraq (orthographic projection).svg',
     }
     assert result == should
+
+
+def test_country_info_nigeria():
+    data = _get_fixture('country_info_nigeria.json')
+    result = parse_country_info('Nigeria', data)
+    should = {
+        'name_translated': 'República Federal de Nigeria',
+        'name_original': 'Federal Republic of Nigeria',
+        'capital_name': 'Abuya',
+        'languages': 'Inglés',
+        'demonyms': 'Nigeriano/a',
+        'iso_code': 'NGA',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Nigeria.svg',
+        'world_location_url': 'Nigeria (orthographic projection).svg',
+    }
+    assert result == should
+
+
+def test_country_info_españa():
+    data = _get_fixture('country_info_españa.json')
+    result = parse_country_info('España', data)
+    should = {
+        'name_translated': 'Reino de España',
+        'name_original': None,
+        'capital_name': 'Madrid',
+        'languages': 'Castellano',
+        'demonyms': 'Español/la',
+        'iso_code': 'ESP',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Spain.svg',
+        'world_location_url': 'EU-Spain.svg',
+    }
+    assert result == should
+
+
+def test_country_info_macedonia():
+    data = _get_fixture('country_info_macedonia.json')
+    result = parse_country_info('Macedonia', data)
+    should = {
+        'name_translated': 'República de Macedonia del Norte',
+        'name_original': 'Република Северна Македонија',
+        'capital_name': 'Skopie',
+        'languages': 'Macedonio',
+        'demonyms': 'Macedonio/a, Normacedonio/a',
+        'iso_code': 'MKD',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of North Macedonia.svg',
+        'world_location_url': 'Europe-Macedonia.svg',
+    }
+    assert result == should

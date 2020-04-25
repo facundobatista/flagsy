@@ -12,8 +12,6 @@ import requests  # fades
 PROCESSED_FLAG = "__processed__"
 IMAGES_CONTAINER = "__images__"
 
-WIKI_BASE_URL = 'https://es.wikipedia.org/wiki/'
-
 IMAGE_QUERY_URL = (
     "https://commons.wikimedia.org/w/api.php?action=query"  # base query
     "&prop=imageinfo"  # getting the image info...
@@ -68,25 +66,33 @@ def get_image_url(filename):
 def extract_payload(m):
     """Extract the inner payload in a typical well formed preprocessor, if payload is there."""
     reference, payload = m.groups()
-    if reference == 'Ref de ficha|':
+    if reference and reference.lower() == 'ref de ficha|':
         return ''
     else:
         return payload
 
 
-def simplify(text):
+def simplify(text, debug=False):
     """Simplify complex text, removing preprocessors and other markup."""
+    if debug:
+        print("============== simplify, input", repr(text))
     text = text.strip().strip('.').replace('_', ' ')
 
-    # reduce the typical preprocessor [[maybe|useful]]
+    # reduce the typical preprocessor [[maybe|useful]], maybe with {{ }}
     reduced = RE_REDUX.sub(extract_payload, text)
     if reduced != text:
-        return simplify(reduced)
+        return simplify(reduced, debug)
+    if debug:
+        print("============== simplify, reduced", repr(reduced))
 
     # remove references
-    text = re.sub('<ref>.*?</ref>', '', text)
+    text = re.sub(r'<ref[^>]*>.*?</ref>', '', text)
     if '<ref>' in text:
         text = text[:text.index('<ref>')]
+    if '{{refn' in text:
+        text = text[:text.index('{{refn')]
+    if debug:
+        print("============== simplify, no references", repr(text))
 
     # reduce gender variations: Alemán, -na -> Alemán/na
     text = text.replace(", -", "/")
@@ -94,16 +100,27 @@ def simplify(text):
     # silly double quotes
     text = text.replace("''", "")
 
-    if '{{' in text:
+    if debug:
+        print("============== simplify, middle", repr(text))
+    if text.startswith('{{'):
         # sub-wrappers, find that and use that
-        ini = text.index('{{') + 2
         end = text.index('}}') if '}}' in text else None
-        return simplify(text[ini:end])
+        return simplify(text[2:end], debug)
+
+    if '<!--' in text:
+        # clean up silly comment
+        ini = text.index('<!--')
+        if '-->' in text:
+            end = text.index('-->') + 3
+            useful = text[:ini] + text[end:]
+        else:
+            useful = text[:ini]
+        return simplify(useful, debug)
 
     if '|' in text:
         # preprocessors
         parts = text.split('|')
-        return simplify(parts[-1])
+        return simplify(parts[-1], debug)
 
     # nothing to keep digging, just make sure first letter is uppercase
     if text and text[0].islower():
@@ -122,10 +139,12 @@ class CountryInfo:
         slot = revinfo['slots']['main']
         assert slot['contentformat'] == 'text/x-wiki'
         rawinfo = slot['*']
-        # print("======== info", repr(rawinfo))
+        # print("======== rawinfo", repr(rawinfo))
 
         # sometimes items are not properly separated by \n, doing our best here...
         rawinfo = re.sub(r'(\|\w+=)', lambda x: '\n' + x.groups()[0], rawinfo)
+        rawinfo = re.sub(r'\| *?(\w+) *?\n *?=', lambda m: '|' + m.groups()[0] + '=', rawinfo)
+        # print("======== postproc", repr(rawinfo))
 
         # get those starting with pipe (removing extra spaces first!) and build a dict using
         # the identifier until the equal sign as key
@@ -173,10 +192,10 @@ def parse_country_info(country, data):
 
     # these are multiples
     parts = RE_BR.split(ci.get('idiomas_oficiales', 'idioma_oficial'))
-    languages = ", ".join(map(simplify, parts))
+    languages = ", ".join(simplify(p) for p in parts)
 
     parts = RE_BR.split(ci.get('gentilicio'))
-    demonyms = ", ".join(map(simplify, parts))
+    demonyms = ", ".join(simplify(p) for p in parts)
 
     # get the code
     full_iso_code = simplify(ci.get('código_ISO'))
@@ -216,6 +235,35 @@ def process(full_url):
     return country_info
 
 
+def get_coi(coi_db, url, name):
+    """Try to find the COI from the url or name."""
+    to_search = set()
+
+    # from the url
+    url_name = url.split('/')[-1]
+    to_search.add(url_name)
+    to_search.add(parse.quote(url_name))
+    to_search.add(parse.unquote(url_name))
+
+    # from the name itself
+    to_search.add(name)
+    to_search.update(x.strip() for x in name.split('/'))
+
+    # explode the underscore/space combinations
+    for item in list(to_search):
+        to_search.add(item.replace('_', ' '))
+        to_search.add(item.replace(' ', '_'))
+
+    # search
+    for name in to_search:
+        if name in coi_db:
+            return coi_db[name]
+
+    # nothing!
+    print("    WARNING! COI not found:", to_search)
+    return
+
+
 def complete(main_db, coi_db):
     """Complete the DB."""
     for item in main_db:
@@ -235,9 +283,7 @@ def complete(main_db, coi_db):
 
         # process code
         iso_code = country_info.pop('iso_code')
-        coi_code = coi_db.get(item['url'])
-        if coi_code is None:
-            coi_code = coi_db[WIKI_BASE_URL + item['name']]
+        coi_code = get_coi(coi_db, item['url'], item['name'])
         if iso_code == coi_code:
             code = iso_code
         else:
