@@ -87,8 +87,8 @@ def simplify(text, debug=False):
 
     # remove references
     text = re.sub(r'<ref[^>]*>.*?</ref>', '', text)
-    if '<ref>' in text:
-        text = text[:text.index('<ref>')]
+    if '<ref' in text:
+        text = text[:text.index('<ref')]
     if '{{refn' in text:
         text = text[:text.index('{{refn')]
     if debug:
@@ -202,8 +202,8 @@ def parse_country_info(country, data):
     iso_code = full_iso_code.split('/')[1].strip()
 
     # the rest is simpler
-    flag_url = simplify(ci.get('imagen_bandera'))
-    world_location_url = simplify(ci.get('imagen_mapa'))
+    flag_url = parse.unquote(simplify(ci.get('imagen_bandera')))
+    world_location_url = parse.unquote(simplify(ci.get('imagen_mapa')))
     capital = simplify(ci.get('capital', 'capital (y ciudad más poblada)'))
 
     result = {

@@ -215,3 +215,21 @@ def test_country_info_macedonia():
         'world_location_url': 'Europe-Macedonia.svg',
     }
     assert result == should
+
+
+def test_country_info_sudandelsur():
+    data = _get_fixture('country_info_sudandelsur.json')
+    result = parse_country_info('Sudán del Sur', data)
+    should = {
+        'name_translated': 'República de Sudán del Sur',
+        'name_original': 'Republic of South Sudan',
+        'capital_name': 'Yuba',
+        'languages': 'Inglés',
+        'demonyms': 'Sursudanés/esa',
+        'iso_code': 'SSD',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of South Sudan.svg',
+        'world_location_url': 'South Sudan hd (orthographic projection).svg',
+    }
+    assert result == should
