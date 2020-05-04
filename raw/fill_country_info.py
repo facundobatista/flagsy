@@ -33,13 +33,18 @@ OVERRULE = {
     'Comoras': {'código_ISO': "KM / COM / 174"},
 }
 
+# COI data is weird
+COI_TRANSLATIONS = {
+    'Reino Unido': 'Gran Bretaña',
+    'Ciudad del Vaticano': None,
+}
+
 # some regexes
 RE_BR = re.compile(r"<br(?: )?(?:/)?>")
 RE_REDUX = re.compile(r"""
-    [{[]{2}    # start with a double { or [
-    (.*?\|)?   # get anything until a |, optionally
-    (.*?)      # get the rest
-    []}]{2}    # until a double } or ]
+    [\{\[]{2}    # start with a double { or [
+    ([^{^\[]*?)  # get anything unless we detect the beginning of other enclosing
+    [\}\]]{2}    # until a double } or ]
 """, re.VERBOSE)
 
 
@@ -65,66 +70,49 @@ def get_image_url(filename):
 
 def extract_payload(m):
     """Extract the inner payload in a typical well formed preprocessor, if payload is there."""
-    reference, payload = m.groups()
-    if reference and reference.lower() == 'ref de ficha|':
-        return ''
-    else:
+    (payload,) = m.groups()
+    if '|' not in payload:
+        # simplest string, use that
+        # print("==== parts, simple", repr(payload))
         return payload
+
+    marker, content = payload.split('|', 1)
+    # print("======== parts", (marker, content))
+    marker = marker.lower()
+    if marker.startswith('ref') or marker.startswith('archivo:'):
+        # print("==== parts, ignoring")
+        return ''
+    elif marker == 'lang':
+        _, content = content.split('|', 1)
+        # print("==== parts, lang", repr(content))
+
+    return content
 
 
 def simplify(text, debug=False):
     """Simplify complex text, removing preprocessors and other markup."""
     if debug:
         print("============== simplify, input", repr(text))
-    text = text.strip().strip('.').replace('_', ' ')
 
-    # reduce the typical preprocessor [[maybe|useful]], maybe with {{ }}
-    reduced = RE_REDUX.sub(extract_payload, text)
-    if reduced != text:
-        return simplify(reduced, debug)
-    if debug:
-        print("============== simplify, reduced", repr(reduced))
-
-    # remove references
-    text = re.sub(r'<ref[^>]*>.*?</ref>', '', text)
-    if '<ref' in text:
-        text = text[:text.index('<ref')]
+    # Remove bad left references.
     if '{{refn' in text:
         text = text[:text.index('{{refn')]
     if debug:
         print("============== simplify, no references", repr(text))
 
-    # reduce gender variations: Alemán, -na -> Alemán/na
+    # Reduce gender variations: Alemán, -na -> Alemán/na.
     text = text.replace(", -", "/")
 
-    # silly double quotes
+    # Silly double quotes.
     text = text.replace("''", "")
 
     if debug:
         print("============== simplify, middle", repr(text))
-    if text.startswith('{{'):
-        # sub-wrappers, find that and use that
-        end = text.index('}}') if '}}' in text else None
-        return simplify(text[2:end], debug)
 
-    if '<!--' in text:
-        # clean up silly comment
-        ini = text.index('<!--')
-        if '-->' in text:
-            end = text.index('-->') + 3
-            useful = text[:ini] + text[end:]
-        else:
-            useful = text[:ini]
-        return simplify(useful, debug)
-
-    if '|' in text:
-        # preprocessors
-        parts = text.split('|')
-        return simplify(parts[-1], debug)
-
-    # nothing to keep digging, just make sure first letter is uppercase
+    # nothing to keep digging, just make sure first letter is uppercase and final cleanups
     if text and text[0].islower():
         text = text[0].upper() + text[1:]
+    text = text.strip().strip('.').replace('_', ' ').replace('\n', ' ')
     return text
 
 
@@ -132,24 +120,35 @@ class CountryInfo:
     def __init__(self, country, data):
         self.overrule = OVERRULE.get(country, {})
 
-        # get real data from response json
+        # Get real data from response json and remove initial cruft
         # print("======== source ", data)
         (page,) = data['query']['pages'].values()
         (revinfo,) = page['revisions']
         slot = revinfo['slots']['main']
         assert slot['contentformat'] == 'text/x-wiki'
         rawinfo = slot['*']
+        rawinfo = rawinfo[rawinfo.index('{{Ficha de país'):]
         # print("======== rawinfo", repr(rawinfo))
+        # import pdb;pdb.set_trace()
 
-        # sometimes items are not properly separated by \n, doing our best here...
-        rawinfo = re.sub(r'(\|\w+=)', lambda x: '\n' + x.groups()[0], rawinfo)
-        rawinfo = re.sub(r'\| *?(\w+) *?\n *?=', lambda m: '|' + m.groups()[0] + '=', rawinfo)
-        # print("======== postproc", repr(rawinfo))
+        # reduce the internal markup structures
+        while True:
+            reduced = RE_REDUX.sub(extract_payload, rawinfo)
+            # print("======== reduced", repr(reduced))
+            if reduced == rawinfo:
+                break
+            rawinfo = reduced
 
-        # get those starting with pipe (removing extra spaces first!) and build a dict using
+        # Remove spurious \n between titles and their values
+        reduced = re.sub(r'\| *?(\w+) *?\n *?=', lambda m: '|' + m.groups()[0] + '=', reduced)
+        # Remove htmlish references and comments
+        reduced = re.sub(r'<ref[^>]*>.*?</ref>', '', reduced)
+        reduced = re.sub(r'<!--.*?-->', '', reduced)
+        # print("======== postproc", repr(reduced))
+
+        # Split elements, and build dicts using titles/values.
         # the identifier until the equal sign as key
-        elements = [x.strip() for x in rawinfo.split('\n')]
-        elements = [x.split('|', 1)[1] for x in elements if '|' in x]
+        elements = [x.strip() for x in reduced.split('|')]
         elements = [x.split('=', 1) for x in elements if '=' in x]
         elements = {k.strip(): v.strip() for k, v in elements}
         # print("======== elements", elements)
@@ -204,7 +203,7 @@ def parse_country_info(country, data):
     # the rest is simpler
     flag_url = parse.unquote(simplify(ci.get('imagen_bandera')))
     world_location_url = parse.unquote(simplify(ci.get('imagen_mapa')))
-    capital = simplify(ci.get('capital', 'capital (y ciudad más poblada)'))
+    capital = simplify(ci.get('capital', 'capital (y ciudad más poblada)', 'capitales'))
 
     result = {
         'name_translated': name_translated,
@@ -254,6 +253,15 @@ def get_coi(coi_db, url, name):
         to_search.add(item.replace('_', ' '))
         to_search.add(item.replace(' ', '_'))
 
+    # maybe translate
+    for name in list(to_search):
+        if name in COI_TRANSLATIONS:
+            translated = COI_TRANSLATIONS[name]
+            if translated is None:
+                # special flag, ignore this! exit here so no warning is shown later
+                return
+            to_search.add(translated)
+
     # search
     for name in to_search:
         if name in coi_db:
@@ -284,7 +292,7 @@ def complete(main_db, coi_db):
         # process code
         iso_code = country_info.pop('iso_code')
         coi_code = get_coi(coi_db, item['url'], item['name'])
-        if iso_code == coi_code:
+        if coi_code is None or iso_code == coi_code:
             code = iso_code
         else:
             code = "{}/{}".format(coi_code, iso_code)

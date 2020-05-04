@@ -48,8 +48,8 @@ def download():
             continue
 
         urlitem = columns[col_positions['urlitem']]
-        names = [getattr(x, 'text', None) for x in urlitem]
-        names = {x for x in names if x and x != '\xa0'}
+        names = {x.strip() for x in urlitem.strings if x != '\xa0'}
+        names = {x for x in names if x}
         assert names
 
         code = columns[col_positions['code']].text.strip()

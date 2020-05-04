@@ -206,7 +206,7 @@ def test_country_info_macedonia():
         'name_translated': 'República de Macedonia del Norte',
         'name_original': 'Република Северна Македонија',
         'capital_name': 'Skopie',
-        'languages': 'Macedonio',
+        'languages': 'Macedonio, Albanés',
         'demonyms': 'Macedonio/a, Normacedonio/a',
         'iso_code': 'MKD',
     }
@@ -225,11 +225,29 @@ def test_country_info_sudandelsur():
         'name_original': 'Republic of South Sudan',
         'capital_name': 'Yuba',
         'languages': 'Inglés',
-        'demonyms': 'Sursudanés/esa',
+        'demonyms': 'Sursudanés/esa, Sudsudanés/esa',
         'iso_code': 'SSD',
     }
     should[IMAGES_CONTAINER] = {
         'flag_url': 'Flag of South Sudan.svg',
         'world_location_url': 'South Sudan hd (orthographic projection).svg',
+    }
+    assert result == should
+
+
+def test_country_info_bolivia():
+    data = _get_fixture('country_info_bolivia.json')
+    result = parse_country_info('Bolivia', data)
+    should = {
+        'name_translated': 'Estado Plurinacional de Bolivia',
+        'name_original': None,
+        'capital_name': 'Sucre (constitucional) y La Paz',
+        'languages': 'Español, aimara, quechua, guaraní y otras 33 lenguas',
+        'demonyms': 'Boliviano/a',
+        'iso_code': 'BOL',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Bolivia.svg',
+        'world_location_url': 'BOL orthographic.svg',
     }
     assert result == should
