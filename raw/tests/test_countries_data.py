@@ -251,3 +251,93 @@ def test_country_info_bolivia():
         'world_location_url': 'BOL orthographic.svg',
     }
     assert result == should
+
+
+def test_country_info_cuba():
+    data = _get_fixture('country_info_cuba.json')
+    result = parse_country_info('Cuba', data)
+    should = {
+        'name_translated': 'República de Cuba',
+        'name_original': None,
+        'capital_name': 'La Habana',
+        'languages': 'Español',
+        'demonyms': 'Cubano/na',
+        'iso_code': 'CUB',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Cuba.svg',
+        'world_location_url': 'CUB orthographic.svg',
+    }
+    assert result == should
+
+
+def test_country_info_francia():
+    data = _get_fixture('country_info_francia.json')
+    result = parse_country_info('Francia', data)
+    should = {
+        'name_translated': 'República Francesa',
+        'name_original': 'République française',
+        'capital_name': 'París',
+        'languages': 'Francés',
+        'demonyms': 'Francés/esa, Galo/la',
+        'iso_code': 'FRA',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of France.svg',
+        'world_location_url': 'EU-France.svg',
+    }
+    assert result == should
+
+
+def test_country_info_suazilandia():
+    data = _get_fixture('country_info_suazilandia.json')
+    result = parse_country_info('Suazilandia', data)
+    should = {
+        'name_translated': 'Reino de Suazilandia',
+        'name_original': 'Umbuso weSwatini',
+        'capital_name': 'Mbabane, Lobamba',
+        'languages': 'Suazi e inglés',
+        'demonyms': 'Suazi',
+        'iso_code': 'SWZ',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Eswatini.svg',
+        'world_location_url': 'Location Swaziland AU Africa.svg',
+    }
+    assert result == should
+
+
+def test_country_info_vaticano():
+    data = _get_fixture('country_info_vaticano.json')
+    result = parse_country_info('Ciudad del Vaticano', data)
+    should = {
+        'name_translated': 'Estado de la Ciudad del Vaticano',
+        'name_original': 'Status Civitatis Vaticanæ',
+        'capital_name': 'Ciudad del Vaticano',
+        'languages': 'Ninguno',
+        'demonyms': 'Vaticano/a',
+        'iso_code': 'VAT',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of the Vatican City.svg',
+        'world_location_url': 'Location of the Vatican City in Europe.svg',
+    }
+    assert result == should
+
+
+def test_country_info_santalucía():
+    data = _get_fixture('country_info_santalucía.json')
+    result = parse_country_info('Santa Lucía', data)
+    should = {
+        'name_translated': 'Santa Lucía',
+        'name_original': 'Saint Lucia',
+        'capital_name': 'Castries',
+        'languages': 'Inglés, Criollo antillano',
+        'demonyms': 'Santalucense',
+        'iso_code': 'LCA',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Saint Lucia.svg',
+        'world_location_url': 'Saint Lucia on the globe (Americas centered).svg',
+    }
+    assert result == should

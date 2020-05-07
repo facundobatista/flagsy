@@ -4,6 +4,7 @@ import json
 import os
 import re
 import shutil
+from pprint import pprint  # NOQA (commented out by default)
 from urllib import parse
 
 import requests  # fades
@@ -70,21 +71,26 @@ def get_image_url(filename):
 
 def extract_payload(m):
     """Extract the inner payload in a typical well formed preprocessor, if payload is there."""
+    debug = False
     (payload,) = m.groups()
     if '|' not in payload:
         # simplest string, use that
-        # print("==== parts, simple", repr(payload))
+        if debug:
+            print("==== parts, simple", repr(payload))
         return payload
 
     marker, content = payload.split('|', 1)
-    # print("======== parts", (marker, content))
+    if debug:
+        print("======== parts", (marker, content))
     marker = marker.lower()
-    if marker.startswith('ref') or marker.startswith('archivo:'):
-        # print("==== parts, ignoring")
+    if marker.startswith(('ref', 'archivo:', 'infobox', 'vt')):
+        if debug:
+            print("==== parts, ignoring")
         return ''
     elif marker == 'lang':
         _, content = content.split('|', 1)
-        # print("==== parts, lang", repr(content))
+        if debug:
+            print("==== parts, lang", repr(content))
 
     return content
 
@@ -106,13 +112,16 @@ def simplify(text, debug=False):
     # Silly double quotes.
     text = text.replace("''", "")
 
+    # Convert HTML's separation into normal union
+    text = text.replace("<br />", ", ")
+
     if debug:
         print("============== simplify, middle", repr(text))
 
     # nothing to keep digging, just make sure first letter is uppercase and final cleanups
     if text and text[0].islower():
         text = text[0].upper() + text[1:]
-    text = text.strip().strip('.').replace('_', ' ').replace('\n', ' ')
+    text = text.strip().strip('.').strip(',').replace('_', ' ').replace('\n', ' ')
     return text
 
 
@@ -127,7 +136,8 @@ class CountryInfo:
         slot = revinfo['slots']['main']
         assert slot['contentformat'] == 'text/x-wiki'
         rawinfo = slot['*']
-        rawinfo = rawinfo[rawinfo.index('{{Ficha de país'):]
+        if '{{Ficha de país' in rawinfo:
+            rawinfo = rawinfo[rawinfo.index('{{Ficha de país'):]
         # print("======== rawinfo", repr(rawinfo))
         # import pdb;pdb.set_trace()
 
@@ -143,6 +153,7 @@ class CountryInfo:
         reduced = re.sub(r'\| *?(\w+) *?\n *?=', lambda m: '|' + m.groups()[0] + '=', reduced)
         # Remove htmlish references and comments
         reduced = re.sub(r'<ref[^>]*>.*?</ref>', '', reduced)
+        reduced = re.sub(r'<ref .*?/>', '', reduced)
         reduced = re.sub(r'<!--.*?-->', '', reduced)
         # print("======== postproc", repr(reduced))
 
@@ -151,7 +162,7 @@ class CountryInfo:
         elements = [x.strip() for x in reduced.split('|')]
         elements = [x.split('=', 1) for x in elements if '=' in x]
         elements = {k.strip(): v.strip() for k, v in elements}
-        # print("======== elements", elements)
+        # print("======== elements", pprint(elements))
         self.elements = elements
 
     def has(self, key):
@@ -189,12 +200,13 @@ def parse_country_info(country, data):
     else:
         name_original = None
 
-    # these are multiples
+    # these are multiples, join parts with comma
     parts = RE_BR.split(ci.get('idiomas_oficiales', 'idioma_oficial'))
     languages = ", ".join(simplify(p) for p in parts)
 
     parts = RE_BR.split(ci.get('gentilicio'))
     demonyms = ", ".join(simplify(p) for p in parts)
+    demonyms = demonyms.replace('-', '/')
 
     # get the code
     full_iso_code = simplify(ci.get('código_ISO'))
