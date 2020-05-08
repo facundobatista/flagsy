@@ -341,3 +341,21 @@ def test_country_info_santalucía():
         'world_location_url': 'Saint Lucia on the globe (Americas centered).svg',
     }
     assert result == should
+
+
+def test_country_info_singapur():
+    data = _get_fixture('country_info_singapur.json')
+    result = parse_country_info('Singapur', data)
+    should = {
+        'name_translated': 'República de Singapur',
+        'name_original': 'Republic of Singapore',
+        'capital_name': 'Ciudad de Singapur',
+        'languages': 'Inglés, malayo, chino estándar o mandarín y tamil',
+        'demonyms': 'Singapurense',
+        'iso_code': 'SGP',
+    }
+    should[IMAGES_CONTAINER] = {
+        'flag_url': 'Flag of Singapore.svg',
+        'world_location_url': 'Singapore in its region (zoom).svg',
+    }
+    assert result == should

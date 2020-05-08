@@ -49,6 +49,10 @@ RE_REDUX = re.compile(r"""
 """, re.VERBOSE)
 
 
+class SkipError(Exception):
+    """Flags to skip it."""
+
+
 def parse_image_url(data):
     """Parse image data and get the url."""
     (page,) = data['query']['pages'].values()
@@ -136,8 +140,9 @@ class CountryInfo:
         slot = revinfo['slots']['main']
         assert slot['contentformat'] == 'text/x-wiki'
         rawinfo = slot['*']
-        if '{{Ficha de país' in rawinfo:
-            rawinfo = rawinfo[rawinfo.index('{{Ficha de país'):]
+        m = re.search('{{[Ff]icha de país', rawinfo)
+        if m is not None:
+            rawinfo = rawinfo[m.span()[0]:]
         # print("======== rawinfo", repr(rawinfo))
         # import pdb;pdb.set_trace()
 
@@ -177,8 +182,7 @@ class CountryInfo:
             except KeyError:
                 pass
         if not silent:
-            print("    WARNING! keys not found:", keys)
-        return ""
+            raise ValueError("Keys not found: " + str(keys))
 
 
 def parse_country_info(country, data):
@@ -188,9 +192,9 @@ def parse_country_info(country, data):
     # different ways to detect if this is not really a country, that is just something that
     # is really part of other country
     if ci.has('país'):
-        return
+        raise SkipError()
     if "Territorio" in ci.get('gobierno', silent=True):
-        return
+        raise SkipError()
 
     # the name(s) extraction is quite specific
     names = RE_BR.split(ci.get('nombre_oficial'))
@@ -291,10 +295,14 @@ def complete(main_db, coi_db):
             continue
 
         print("Processing", repr(item['name']), item['url'])
-        country_info = process(item['url'])
-        if country_info is None:
+        try:
+            country_info = process(item['url'])
+        except SkipError:
             item[PROCESSED_FLAG] = True
             print("Skipping!", item)
+            continue
+        except Exception as err:
+            print("ERROR: skipping because crashed while processing stuff from", item, err)
             continue
 
         # process images
