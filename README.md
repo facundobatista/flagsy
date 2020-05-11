@@ -33,8 +33,14 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
 
 ### Steps
 
-1. Run `get_countries_data.py`, will leave a json with some data for all countries
+1. Go to `raw` subdir:
 
-2. Run `get_coi_data.py`, will leave a json with some data for COI codes
+    1.1. Run `get_countries_data.py`, will leave a json with some data for all countries
 
-3. Run `fill_country_info.py', which will improve each item in the countries json data
+    1.2. Run `get_coi_data.py`, will leave a json with some data for COI codes
+
+    1.3. Run `fill_country_info.py', which will improve each item in the countries json data
+
+    1.4. Run `download_images.py`, which will leave a `imgs` directory
+
+2. Go to ... (FIXME)

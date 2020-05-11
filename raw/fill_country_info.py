@@ -11,6 +11,8 @@ import requests  # fades
 
 
 PROCESSED_FLAG = "__processed__"
+PROCESSED_IGNORE = 'ignore'
+PROCESSED_OK = 'ok'
 IMAGES_CONTAINER = "__images__"
 
 IMAGE_QUERY_URL = (
@@ -298,7 +300,7 @@ def complete(main_db, coi_db):
         try:
             country_info = process(item['url'])
         except SkipError:
-            item[PROCESSED_FLAG] = True
+            item[PROCESSED_FLAG] = PROCESSED_IGNORE
             print("Skipping!", item)
             continue
         except Exception as err:
@@ -319,7 +321,7 @@ def complete(main_db, coi_db):
         country_info['code'] = code
 
         item.update(country_info)
-        item[PROCESSED_FLAG] = True
+        item[PROCESSED_FLAG] = PROCESSED_OK
 
 
 def _backup(filepath):
