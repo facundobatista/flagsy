@@ -41,6 +41,17 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
 
     1.3. Run `fill_country_info.py', which will improve each item in the countries json data
 
-    1.4. Run `download_images.py`, which will leave a `imgs` directory
+    1.4. Run `download_images.py`, which will leave a `images` directory
 
-2. Go to ... (FIXME)
+2. Move metadata and images from raw to art directory:
+
+    ```
+    mv raw/countries_data.json art/
+    mv raw/images/ art/
+    ```
+
+3. Got `art` subdir:
+
+    3.1. Run `convert_images.py` to get all images as PNGs
+
+    3.2. Run `generate_cards.py` to generate all PDFs with the cards
