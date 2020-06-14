@@ -10,6 +10,8 @@ If nailed it, the card is discarded, the participant has a card less, if zero he
 
 If wrong, the card is discarded, the partipant gets another one from the deck.
 
+Variations can be made as the cards have other country info (e.g., to get rid of the card the participant must guess the country name and its capital).
+
 
 ## What this project is about
 
@@ -55,3 +57,12 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
     3.1. Run `convert_images.py` to get all images as PNGs
 
     3.2. Run `generate_cards.py` to generate all PDFs with the cards
+
+    3.3. Smash all of them together for easier inspection: 
+
+    ```
+    pdftk result/card-back*pdf cat output ../final-back.pdf
+    pdftk result/card-front*pdf cat output ../final-front.pdf
+    ```
+
+4. Print them, and play
