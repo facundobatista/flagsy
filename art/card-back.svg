@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="40mm"
+   height="60mm"
+   viewBox="0 0 40 60"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -21,9 +21,9 @@
     <inkscape:perspective
        id="perspective2477"
        inkscape:persp3d-origin="469.87363 : 158.9092 : 1"
-       inkscape:vp_z="939.74725 : 238.3638 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 238.3638 : 1"
+       inkscape:vp_z="939.74725 : 238.36379 : 1"
+       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_x="0 : 238.36379 : 1"
        sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
@@ -33,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="417.893"
-     inkscape:cy="582.78577"
+     inkscape:zoom="1.4"
+     inkscape:cx="-100.67918"
+     inkscape:cy="113.26467"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,62 +60,49 @@
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-237)">
     <rect
-       style="opacity:1;vector-effect:none;fill:#39f035;fill-opacity:1;stroke:#000000;stroke-width:0.15628311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#39f035;fill-opacity:1;stroke:#000000;stroke-width:0.03000732;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect19351"
-       width="160.07138"
-       height="160.09502"
-       x="44.855141"
-       y="131.82085" />
+       width="30.734688"
+       height="30.739227"
+       x="7.9146352"
+       y="263.96066" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.72557926px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000095;fill-opacity:1;stroke:none;stroke-width:0.21813713"
-       x="12.186369"
-       y="85.560951"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67536497px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000095;fill-opacity:1;stroke:none;stroke-width:0.04188367"
+       x="1.6420276"
+       y="254.13358"
        id="text1090"><tspan
          sodipodi:role="line"
-         x="12.186369"
-         y="85.560951"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.72557926px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000095;fill-opacity:1;stroke-width:0.21813713"
+         x="1.6420276"
+         y="254.13358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67536497px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000095;fill-opacity:1;stroke-width:0.04188367"
          id="tspan889">Capital: {{capital}}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.91989136px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.322997"
-       x="105.00636"
-       y="26.503857"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.48069859px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06201742"
+       x="20.001221"
+       y="242.13281"
        id="text1090-0"><tspan
          sodipodi:role="line"
          id="tspan1088-3"
-         x="105.00636"
-         y="26.503857"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.91989136px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.322997">{{simple_name}}</tspan></text>
+         x="20.001221"
+         y="242.13281"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.48069859px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.06201742">{{simple_name}}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.67142487px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44178274"
-       x="-256.6478"
-       y="30.781199"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.39302206px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.084825"
+       x="-287.92825"
+       y="5.5464382"
        id="text1090-3"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
-         x="-256.6478"
-         y="30.781199"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.67142487px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.44178274"
+         x="-287.92825"
+         y="5.5464382"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.39302206px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.084825"
          id="tspan1128-9">{{continent}}</tspan></text>
-    <rect
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.07914066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect19341"
-       width="61.621365"
-       height="2.3930628"
-       x="-45.357143"
-       y="209.5623" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect19343"
-       width="103.71708"
-       height="115.38788"
-       x="-35.151787"
-       y="177.9375" />
     <rect
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect19345"
@@ -123,16 +110,9 @@
        height="54.050598"
        x="53.672619"
        y="307.9613" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect19347"
-       width="85.422623"
-       height="85.422623"
-       x="-66.523811"
-       y="176.04762" />
     <g
        id="g839"
-       transform="matrix(0.61362649,0,0,0.61362649,93.88463,132.28857)">
+       transform="matrix(0.11782006,0,0,0.11782006,17.662684,264.05051)">
       <rect
          ry="1.984375"
          y="235.0119"
@@ -155,70 +135,81 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.27974463px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke:none;stroke-width:0.18199722"
-       x="105.00358"
-       y="48.526302"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.39775574px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke:none;stroke-width:0.03494459"
+       x="20.000683"
+       y="246.36127"
        id="text1090-1"><tspan
          sodipodi:role="line"
-         x="105.00358"
-         y="48.526302"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.27974463px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke-width:0.18199722"
+         x="20.000683"
+         y="246.36127"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.39775574px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke-width:0.03494459"
          id="tspan828-0">{{translated_name}}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.27974463px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke:none;stroke-width:0.18199722"
-       x="105.00358"
-       y="61.5261"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.39775574px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke:none;stroke-width:0.03494459"
+       x="19.999924"
+       y="248.8573"
        id="text1090-4"><tspan
          sodipodi:role="line"
-         x="105.00358"
-         y="61.5261"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.27956953px;font-family:'Unifont Upper';-inkscape-font-specification:'Unifont Upper, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr;text-anchor:middle;fill:#770000;fill-opacity:1;stroke-width:0.18199722"
+         x="19.999924"
+         y="248.8573"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:1.39772213px;font-family:'Unifont Upper';-inkscape-font-specification:'Unifont Upper, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#770000;fill-opacity:1;stroke-width:0.03494459"
          id="tspan828-4">{{original_name}}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.52316761px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.13807921"
-       x="12.372108"
-       y="109.09299"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.06048226px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.02651206"
+       x="1.6776906"
+       y="258.65186"
        id="text1090-8"><tspan
          sodipodi:role="line"
-         x="12.372108"
-         y="109.09299"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.52316761px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke-width:0.13807921"
+         x="1.6776906"
+         y="258.65186"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.06048226px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke-width:0.02651206"
          id="tspan889-3">{{demonym_title}}: {{demonym_content}}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.54129505px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke:none;stroke-width:0.23853055"
-       x="24.917305"
-       y="134.38399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.83198726px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke:none;stroke-width:0.04579933"
+       x="4.8214383"
+       y="263.5079"
        id="text1090-8-8"><tspan
          sodipodi:role="line"
-         x="24.917305"
-         y="134.38399"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.54122761px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke-width:0.23853055"
+         x="4.8214383"
+         y="263.5079"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.83197427px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke-width:0.04579933"
          id="tspan953">{{codes}}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.28431892px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke:none;stroke-width:0.10710716"
-       x="24.839478"
-       y="124.48047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82261556px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke:none;stroke-width:0.02056524"
+       x="4.8064961"
+       y="261.60635"
        id="text1090-8-8-8"><tspan
          sodipodi:role="line"
-         x="24.839478"
-         y="124.48047"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.28433704px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke-width:0.10710716"
+         x="4.8064961"
+         y="261.60635"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82261908px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#c70000;fill-opacity:1;stroke-width:0.02056524"
          id="tspan953-4">COI / ISO</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.52316809px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.13807921"
-       x="12.372108"
-       y="98.075912"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.06048226px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.02651206"
+       x="1.6776906"
+       y="256.5365"
        id="text1090-8-0"><tspan
          sodipodi:role="line"
-         x="12.372108"
-         y="98.075912"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.52316809px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke-width:0.13807921"
+         x="1.6776906"
+         y="256.5365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.06048226px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#004300;fill-opacity:1;stroke-width:0.02651206"
          id="tspan889-3-4">{{lang_title}}: {{lang_content}}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.8976661px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#009600;fill-opacity:1;stroke:none;stroke-width:0.02244159"
+       x="39.452034"
+       y="296.2742"
+       id="text1090-8-8-7"><tspan
+         sodipodi:role="line"
+         x="39.452034"
+         y="296.2742"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.8976661px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#009600;fill-opacity:1;stroke-width:0.02244159"
+         id="tspan953-6">{{idx}}</tspan></text>
   </g>
   <style
      id="style_css_sheet"

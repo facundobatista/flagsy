@@ -3,6 +3,7 @@
 import os
 import json
 import operator
+import random
 import unicodedata
 
 import certg  # fades >=5
@@ -26,6 +27,7 @@ def generate_fronts(db):
             'wflag_path': item['wflag_path'],
             'progress': item['progress'],
             'reduced_name': item['reduced_name'],
+            'idx': item['ridx'],
         })
 
     image_info = [{
@@ -72,6 +74,7 @@ def generate_backs(db):
             'wloc_path': item['wloc_path'],
             'progress': item['progress'],
             'reduced_name': item['reduced_name'],
+            'idx': item['ridx'],
         })
 
     image_info = [{
@@ -91,11 +94,16 @@ def load(dbpath):
         db = json.load(fh)
 
     db = [item for item in db if item.get(PROCESSED_FLAG) == PROCESSED_OK]
+    random_idxs = list(map(str, range(1, len(db) + 1)))
+    random.shuffle(random_idxs)
 
     for item in db:
+        # insert a reduced/normalized name for filepaths and everything, and a id to
+        # identify the cards later (randomized so can not guess country position in the alphabet)
         name = item['name'].replace('/', '').replace(' ', '')
         item['reduced_name'] = (
             unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode("ASCII").lower())
+        item['ridx'] = random_idxs.pop()
 
         name = item['name'].split('/')[0].strip()
         wloc_path = os.path.abspath("pngs/{}.location.png".format(name))
@@ -122,7 +130,7 @@ def main(dbpath):
         os.mkdir(RESULT_DIR)
 
     db = load(dbpath)
-    generate_fronts(db)
+    #generate_fronts(db)
     generate_backs(db)
 
 
