@@ -1,4 +1,4 @@
-## Qué se neceista a nivel de diseño
+## Qué se necesita a nivel de diseño
 
 La base del juego es que son cartas de paises, de un lado con la bandera, y del otro lado con mucha info sobre ese país (para más info, ver estas [instrucciones](INSTRUCCIONES.md)).
 
