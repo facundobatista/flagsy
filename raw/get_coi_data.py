@@ -1,4 +1,4 @@
-#!/usr/bin/fades
+#!/usr/bin/env fades
 
 import json
 
