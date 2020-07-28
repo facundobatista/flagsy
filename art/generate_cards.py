@@ -130,7 +130,7 @@ def main(dbpath):
         os.mkdir(RESULT_DIR)
 
     db = load(dbpath)
-    #generate_fronts(db)
+    generate_fronts(db)
     generate_backs(db)
 
 
