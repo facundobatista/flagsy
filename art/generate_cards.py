@@ -8,6 +8,13 @@ import unicodedata
 
 import certg  # fades >=5
 
+def get_inkscape_cmd(srcpath, dstpath):
+    """Build the command for Inkscape to convert the SVG into PDF."""
+    cmd = ['inkscape', '--export-text-to-path', '--export-type=pdf', '--export-filename={}'.format(dstpath), srcpath]
+    return cmd
+
+certg.get_inkscape_cmd = get_inkscape_cmd
+
 RESULT_DIR = 'result'
 
 PROCESSED_OK = 'ok'
