@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="card-back-common.svg"
+   inkscape:version="1.0 (1.0+r73+1)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 40 60"
+   height="60mm"
+   width="40mm">
+  <defs
+     id="defs2">
+    <rect
+       id="rect1702"
+       height="7.4442867"
+       width="37.29107"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       id="rect1566"
+       height="1.9784597"
+       width="37.10161"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       id="rect1560"
+       height="11.501634"
+       width="14.490631"
+       y="253.24564"
+       x="-15.987752" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 238.36379 : 1"
+       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_z="939.74725 : 238.36379 : 1"
+       inkscape:persp3d-origin="469.87363 : 158.9092 : 1"
+       id="perspective2477" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409257"
+       height="3.6711056"
+       id="rect1610" />
+    <rect
+       id="rect1646"
+       height="3.2863369"
+       width="28.409257"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="44.729265"
+       height="7.6169374"
+       id="rect1758" />
+    <rect
+       id="rect1775"
+       height="5.2748438"
+       width="45.125214"
+       y="244.04587"
+       x="-20.275866" />
+  </defs>
+  <sodipodi:namedview
+     units="in"
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0"
+     showguides="true"
+     inkscape:window-maximized="1"
+     inkscape:window-y="28"
+     inkscape:window-x="0"
+     inkscape:window-height="997"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="59.968797"
+     inkscape:cx="57.047094"
+     inkscape:zoom="4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     borderlayer="true">
+    <sodipodi:guide
+       id="guide1589"
+       orientation="1,0"
+       position="29.988023,37.407948" />
+    <sodipodi:guide
+       id="guide1734"
+       orientation="1,0"
+       position="38.633809,36.520372" />
+    <sodipodi:guide
+       position="-7.4367744,39.93474"
+       orientation="1,0"
+       id="guide892" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-237)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <rect
+       y="236.48007"
+       x="-0.6241169"
+       height="14.273663"
+       width="41.586685"
+       id="rect1526"
+       style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.0268966;stop-color:#000000" />
+    <rect
+       y="262.35367"
+       x="6.270678"
+       height="32.345428"
+       width="32.340652"
+       id="rect19351"
+       style="opacity:1;vector-effect:none;fill:#39f035;fill-opacity:1;stroke:#000000;stroke-width:0.0315753;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="237"
+       x="-500000"
+       height="0"
+       width="1000000"
+       id="rect1005"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       transform="scale(-1,1)" />
+    <text
+       transform="rotate(-90)"
+       id="text1090-3"
+       y="4.388885"
+       x="-278.52637"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.084825;"
+       xml:space="preserve"><tspan
+         id="tspan1128-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#999999;fill-opacity:1;stroke-width:0.084825;font-size:3.175px;"
+         y="4.388885"
+         x="-278.52637"
+         sodipodi:role="line">{{continent}}</tspan></text>
+    <rect
+       y="307.9613"
+       x="53.672619"
+       height="54.050598"
+       width="55.5625"
+       id="rect19345"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text834"
+       y="295.63309"
+       x="1.2887942"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:Andika;-inkscape-font-specification:Andika;letter-spacing:0px;word-spacing:0px;fill:#003d00;fill-opacity:1;stroke:none;stroke-width:0.0319993"
+       xml:space="preserve"><tspan
+         style="font-size:1.05833px;fill:#004300;fill-opacity:1;stroke-width:0.0319993"
+         y="295.63309"
+         x="1.2887942"
+         id="tspan832"
+         sodipodi:role="line">Flagsy</tspan></text>
+    <text
+       id="text1090-8-8-7"
+       y="295.62784"
+       x="38.732651"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#003d00;fill-opacity:1;stroke:none;stroke-width:0.0224416"
+       xml:space="preserve"><tspan
+         id="tspan953-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:Andika;-inkscape-font-specification:Andika;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#004300;fill-opacity:1;stroke-width:0.0224416"
+         y="295.62784"
+         x="38.732651"
+         sodipodi:role="line">{{idx}}</tspan></text>
+    <text
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:2.11666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560);"
+       id="text1558"
+       xml:space="preserve" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       x="4.7164283"
+       y="254.13358"
+       id="text1038"
+       transform="translate(29.917991,3.2933)"><tspan
+         sodipodi:role="line"
+         x="4.7164283"
+         y="254.13358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="tspan1036"><tspan
+           style="text-align:center;text-anchor:middle;fill:#4d804d;fill-opacity:1"
+           id="tspan1034">COI / ISO</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="4.7164283"
+         y="255.89746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="tspan1441">{{codes}}</tspan></text>
+    <text
+       transform="translate(17.321238,-0.04218606)"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1566);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1564"
+       xml:space="preserve"><tspan
+         x="-15.789062"
+         y="254.3031"><tspan
+           style="line-height:1.1;fill:#4d804d;fill-opacity:1">Capital: </tspan><tspan
+           style="line-height:1.1;fill:#004300;fill-opacity:1">{{capital}}</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1608"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1610);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="translate(17.367805,2.795656)"><tspan
+         x="-15.789062"
+         y="254.3031"><tspan
+           style="fill:#4d804d;fill-opacity:1">{{lang_title}}:</tspan><tspan
+           style="line-height:1.1;fill:#004300;fill-opacity:1"> {{lang_content}}
+</tspan></tspan></text>
+    <text
+       transform="translate(17.367805,5.6402991)"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1646);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1644"
+       xml:space="preserve"><tspan
+         x="-15.789062"
+         y="254.3031"><tspan
+           style="fill:#4d804d;fill-opacity:1">{{demonym_title}}:</tspan><tspan
+           style="line-height:1.1;fill:#004300;fill-opacity:1"> {{demonym_content}}</tspan></tspan></text>
+    <text
+       transform="translate(21.62988,-4.5714209)"
+       y="0"
+       x="11.495055"
+       style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1702);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1700"
+       xml:space="preserve"><tspan
+         x="-13.251935"
+         y="246.60871"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle">{{simple_name}}</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1756"
+       style="font-style:normal;font-weight:normal;font-size:1.76389px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1758);fill:#000000;fill-opacity:1;stroke:none;"
+       x="11.495055"
+       y="0"
+       transform="matrix(0.83426223,0,0,0.83426223,18.257336,41.125973)"><tspan
+         x="-5.8530267"
+         y="245.46925"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#000080;fill-opacity:1">{{translated_name}}</tspan></tspan></text>
+    <text
+       transform="matrix(0.83426223,0,0,0.83426223,18.09195,43.790205)"
+       y="0"
+       x="11.495055"
+       style="font-style:normal;font-weight:normal;font-size:1.76389px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1775);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1773"
+       xml:space="preserve"><tspan
+         x="-4.5647021"
+         y="245.46925"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#7f7faf;fill-opacity:1">{{original_name}}</tspan></tspan></text>
+  </g>
+  <style
+     type="text/css"
+     id="style_css_sheet">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+</svg>

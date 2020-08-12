@@ -1,10 +1,12 @@
 #!/usr/bin/env fades
 
+import argparse
 import os
 import json
 import operator
 import random
 import unicodedata
+from collections import defaultdict
 
 import certg  # fades >=5
 
@@ -19,10 +21,12 @@ def cback(data):
     print(" ", data['progress'])
 
 
-def generate_fronts(db):
+def generate_fronts(db, country=None):
     """Generate the fronts with just the flags."""
     replace_info = []
     for item in db:
+        if country is not None and item['reduced_name'] != country:
+            continue
         replace_info.append({
             'wflag_path': item['wflag_path'],
             'progress': item['progress'],
@@ -47,11 +51,24 @@ def is_single(text):
     return not any(ind in text for ind in indicators)
 
 
-def generate_backs(db):
+def generate_backs(db, country=None):
     """Generate the backs with all the rest of the information."""
-    replace_info = []
+    template_styles = {
+        None: 'card-back-common.svg',
+        "long-languages": 'card-back-lang.svg',
+        "long-demonyms": 'card-back-dem.svg',
+        "long-languages-and-countryname": 'card-back-lang-cntry.svg',
+        "long-countryname": 'card-back-cntry.svg',
+    }
+
+    per_style = defaultdict(list)
 
     for item in db:
+        if country is not None and item['reduced_name'] != country:
+            continue
+
+        style = item.get('style')
+
         # no point on having both if they are the same
         original_name = item['name_original']
         if original_name == item['name_translated']:
@@ -60,7 +77,8 @@ def generate_backs(db):
         lang_title = "Idioma" if is_single(item['languages']) else "Idiomas"
         demonym_title = "Gentilicio" if is_single(item['demonyms']) else "Gentilicios"
 
-        replace_info.append({
+        template = template_styles[style]
+        per_style[template].append({
             'continent': item['continent'],
             'capital': item['capital_name'],
             'lang_title': lang_title,
@@ -75,6 +93,7 @@ def generate_backs(db):
             'progress': item['progress'],
             'reduced_name': item['reduced_name'],
             'idx': item['ridx'],
+            'style': style or 'common',
         })
 
     image_info = [{
@@ -83,9 +102,10 @@ def generate_backs(db):
         'placement': 'center',
     }]
 
-    certg.process(
-        "card-back.svg", os.path.join(RESULT_DIR, "card-back"), "reduced_name",
-        replace_info, image_info, progress_cb=cback)
+    for template, replace_info in per_style.items():
+        certg.process(
+            template, os.path.join(RESULT_DIR, "card-back"), "reduced_name",
+            replace_info, image_info, progress_cb=cback)
 
 
 def load(dbpath):
@@ -124,14 +144,16 @@ def load(dbpath):
     return db
 
 
-def main(dbpath):
+def main(dbpath, args):
     """Main entry point."""
     if not os.path.exists(RESULT_DIR):
         os.mkdir(RESULT_DIR)
 
     db = load(dbpath)
-    generate_fronts(db)
-    generate_backs(db)
+    if not args.only_backs:
+        generate_fronts(db, country=args.country)
+    if not args.only_fronts:
+        generate_backs(db, country=args.country)
 
 
 if __name__ == "__main__":
@@ -141,4 +163,10 @@ if __name__ == "__main__":
         print("ERROR: Missing needed file {!r} -- Please check README.".format(fpath))
         exit()
 
-    main(fpath)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--only-backs', action='store_true')
+    parser.add_argument('--only-fronts', action='store_true')
+    parser.add_argument('--country', action='store')
+    args = parser.parse_args()
+
+    main(fpath, args)
