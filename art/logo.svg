@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60mm"
+   height="40mm"
+   viewBox="0 0 60 40"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1197-6">
+      <stop
+         style="stop-color:#04ae68;stop-opacity:1"
+         offset="0"
+         id="stop1193" />
+      <stop
+         style="stop-color:#5ce676;stop-opacity:1"
+         offset="1"
+         id="stop1195" />
+    </linearGradient>
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="37.291069"
+       height="7.4442868"
+       id="rect1702" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="37.101608"
+       height="1.9784597"
+       id="rect1566" />
+    <rect
+       x="-15.987752"
+       y="253.24564"
+       width="14.490631"
+       height="11.501634"
+       id="rect1560" />
+    <inkscape:perspective
+       id="perspective2477"
+       inkscape:persp3d-origin="469.87365 : 138.9092 : 1"
+       inkscape:vp_z="939.74728 : 218.36378 : 1"
+       inkscape:vp_y="0 : 999.99995 : 0"
+       inkscape:vp_x="0 : 218.36378 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <rect
+       id="rect1610"
+       height="3.6711056"
+       width="28.409258"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.2863369"
+       id="rect1646" />
+    <rect
+       id="rect1758"
+       height="7.6169376"
+       width="44.729263"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="45.125214"
+       height="5.2748437"
+       id="rect1775" />
+    <linearGradient
+       gradientTransform="matrix(2.1928368,0.18496465,-0.18496465,2.1928368,-9.7954403,-351.00106)"
+       gradientUnits="userSpaceOnUse"
+       y2="289.2356"
+       x2="55.515697"
+       y1="289.66196"
+       x1="53.019577"
+       id="linearGradient1189"
+       xlink:href="#linearGradient1197-6"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="matrix(2.1928368,0.18496465,-0.18496465,2.1928368,-9.7954403,-351.00106)"
+       gradientUnits="userSpaceOnUse"
+       y2="289.48792"
+       x2="56.376846"
+       y1="289.86703"
+       x1="54.654907"
+       id="linearGradient1191"
+       xlink:href="#linearGradient1197-6"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="matrix(2.1928368,0.18496465,-0.18496465,2.1928368,-9.7954403,-351.00106)"
+       gradientUnits="userSpaceOnUse"
+       y2="290.43396"
+       x2="54.777206"
+       y1="290.31091"
+       x1="55.904705"
+       id="linearGradient1199"
+       xlink:href="#linearGradient1197-6"
+       inkscape:collect="always" />
+    <rect
+       id="rect1735"
+       height="3.2863369"
+       width="28.409258"
+       y="253.12529"
+       x="-15.789039" />
+  </defs>
+  <sodipodi:namedview
+     borderlayer="true"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="101.98216"
+     inkscape:cy="86.72028"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1368"
+     inkscape:window-height="691"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:document-rotation="0"
+     inkscape:guide-bbox="true"
+     units="in" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-237)">
+    <rect
+       transform="scale(-1,1)"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect1005"
+       width="1000000"
+       height="0"
+       x="-500000"
+       y="237" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect19345"
+       width="55.5625"
+       height="54.050598"
+       x="53.672619"
+       y="307.9613" />
+    <text
+       xml:space="preserve"
+       id="text1558"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560);fill:#000000;fill-opacity:1;stroke:none;" />
+    <g
+       transform="translate(-47.116834,-36.223336)"
+       id="g2004">
+      <path
+         id="rect1162"
+         style="fill:url(#linearGradient1191);fill-opacity:1;stroke-width:0.0139376;stop-color:#000000"
+         d="m 56.216648,290.4938 c 1.609153,0.77547 3.658915,0.90731 6.417551,-0.45199 l 0.110559,5.83086 c -1.294904,0.35773 -6.368224,1.30915 -6.417549,0.45199 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 56.249591,293.46085 c 1.609153,0.77546 0.01144,0.97838 2.769993,-0.3809 l 0.07762,2.8638 c 0.04474,0.98905 -2.682793,-0.72209 -2.769991,0.38091 z"
+         style="fill:url(#linearGradient1199);fill-opacity:1;stroke-width:0.0139376;stop-color:#000000"
+         id="path1181" />
+      <path
+         id="rect1160"
+         style="fill:url(#linearGradient1189);fill-opacity:1;stroke-width:0.0132037;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+         d="m 53.059153,290.69821 c 2.142893,-0.16416 5.955304,-1.55071 5.92749,-0.58534 l 0.110559,5.83088 c 0.03081,-0.99541 -3.756777,0.32961 -5.92749,0.58532 z"
+         sodipodi:nodetypes="ccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.32899px;line-height:1.25;font-family:Andika;-inkscape-font-specification:Andika;letter-spacing:0px;word-spacing:0px;fill:#48320a;fill-opacity:1;stroke:none;stroke-width:0.0704184"
+         x="54.549225"
+         y="294.32501"
+         id="text1168"><tspan
+           sodipodi:role="line"
+           id="tspan1166"
+           x="54.549225"
+           y="294.32501"
+           style="font-size:2.32899px;fill:#48320a;fill-opacity:1;stroke-width:0.0704184">Flagsy</tspan></text>
+    </g>
+    <g
+       transform="translate(-41.873186,-36.223336)"
+       id="g2009">
+      <path
+         id="path1365"
+         style="font-variation-settings:normal;vector-effect:none;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.174675;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 70.068616,289.77422 c -1.16095,-0.01 -3.706983,0.80028 -5.314151,0.92341 l 0.110307,5.83157 c 0.905623,-0.10667 2.071721,-0.38927 3.145509,-0.62205 l 0.01135,0.41736 c 0.04932,0.85716 5.123471,-0.0949 6.41838,-0.45261 l -0.110313,-5.83044 c -1.375014,0.67753 -2.573945,0.9842 -3.629952,1.02575 l -0.01817,-0.95411 c 0.0069,-0.24134 -0.22597,-0.33568 -0.612956,-0.33888 z" />
+      <text
+         id="text1373"
+         y="294.32474"
+         x="66.244194"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.32899px;line-height:1.25;font-family:Andika;-inkscape-font-specification:Andika;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0704184"
+         xml:space="preserve"><tspan
+           style="font-size:2.32899px;fill:#000000;fill-opacity:1;stroke-width:0.0704184"
+           y="294.32474"
+           x="66.244194"
+           id="tspan1371"
+           sodipodi:role="line">Flagsy</tspan></text>
+    </g>
+    <g
+       transform="translate(-41.825168,-36.223336)"
+       id="g2091">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.582247;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="rect1638"
+         width="18.789946"
+         height="17.094805"
+         x="77.092903"
+         y="284.67593" />
+      <path
+         d="m 86.959347,289.77422 c -1.160952,-0.008 -3.706983,0.80027 -5.314152,0.9234 l 0.110295,5.83159 c 0.905624,-0.10673 2.071723,-0.3893 3.14551,-0.62205 l 0.01145,0.41735 c 0.04931,0.85717 5.123472,-0.0949 6.418381,-0.45261 l -0.110318,-5.83044 c -1.375016,0.67753 -2.573947,0.98421 -3.629953,1.02575 l -0.01826,-0.95412 c 0.0071,-0.24134 -0.225971,-0.33568 -0.612955,-0.33887 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.17385;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1642" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.32898px;line-height:1.25;font-family:Andika;-inkscape-font-specification:Andika;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0704184"
+         x="83.134926"
+         y="294.32474"
+         id="text1646"><tspan
+           sodipodi:role="line"
+           id="tspan1644"
+           x="83.134926"
+           y="294.32474"
+           style="font-size:2.32898px;fill:#ffffff;fill-opacity:1;stroke-width:0.0704184">Flagsy</tspan></text>
+    </g>
+  </g>
+  <style
+     id="style_css_sheet"
+     type="text/css">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+</svg>
