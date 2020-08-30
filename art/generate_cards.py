@@ -114,7 +114,7 @@ def load(dbpath):
         db = json.load(fh)
 
     db = [item for item in db if item.get(PROCESSED_FLAG) == PROCESSED_OK]
-    random_idxs = list(map(str, range(1, len(db) + 1)))
+    random_idxs = ["{:02X}".format(i) for i in range(1, len(db) + 1)]
     random.shuffle(random_idxs)
 
     for item in db:

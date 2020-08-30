@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,22 +7,71 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60mm"
-   height="40mm"
-   viewBox="0 0 60 40"
+   width="90mm"
+   height="60mm"
+   viewBox="0 0 90 60"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.0 (1.0+r73+1)"
    sodipodi:docname="card-front.svg">
   <defs
      id="defs2">
     <inkscape:perspective
        id="perspective2477"
-       inkscape:persp3d-origin="469.87364 : 158.90919 : 1"
-       inkscape:vp_z="939.74728 : 238.36379 : 1"
-       inkscape:vp_y="0 : 999.99995 : 0"
-       inkscape:vp_x="0 : 238.36379 : 1"
+       inkscape:persp3d-origin="469.87365 : 178.9092 : 1"
+       inkscape:vp_z="939.7473 : 258.3638 : 1"
+       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_x="0 : 258.3638 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <rect
+       id="rect1702"
+       height="7.4442868"
+       width="37.291069"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       id="rect1566"
+       height="1.9784597"
+       width="37.101608"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       id="rect1560"
+       height="11.501634"
+       width="14.490631"
+       y="253.24564"
+       x="-15.987752" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 258.3638 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="939.74727 : 258.3638 : 1"
+       inkscape:persp3d-origin="469.87364 : 178.90921 : 1"
+       id="perspective2477-0" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.6711056"
+       id="rect1610" />
+    <rect
+       id="rect1646"
+       height="3.2863369"
+       width="28.409258"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="44.729263"
+       height="7.6169376"
+       id="rect1758" />
+    <rect
+       id="rect1775"
+       height="5.2748437"
+       width="45.125214"
+       y="244.04587"
+       x="-20.275866" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -33,19 +80,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="271.31152"
-     inkscape:cy="50.5171"
+     inkscape:zoom="4.0000002"
+     inkscape:cx="244.47176"
+     inkscape:cy="128.95238"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="993"
+     inkscape:window-height="997"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
      showguides="false"
-     width="60mm" />
+     width="60mm"
+     inkscape:document-rotation="0"
+     borderlayer="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -54,7 +103,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,13 +112,18 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-257)">
+    <path
+       sodipodi:nodetypes="cccccsssssssss"
+       d="M -0.84900842,318.06741 H 91.292352 V 255.93259 H -0.84900842 Z M 2.023603,312.56637 v -51.13275 c 0,-1.68056 1.3529613,-3.03354 3.0335333,-3.03354 H 85.190026 c 1.680572,0 3.033533,1.35298 3.033533,3.03354 v 51.13275 c 0,1.68057 -1.352961,3.03355 -3.033533,3.03355 H 5.0571363 c -1.680572,0 -3.0335333,-1.35298 -3.0335333,-3.03355 z"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#0073e0;stroke-width:0.394306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+       id="rect1985" />
     <rect
-       style="opacity:1;vector-effect:none;fill:#39f035;fill-opacity:1;stroke:#000000;stroke-width:0.04379025;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#39f035;fill-opacity:1;stroke:#000000;stroke-width:0.0623227;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect19351"
-       width="55.956211"
-       height="35.956211"
-       x="2.0218945"
-       y="259.02188" />
+       width="79.637337"
+       height="51.173176"
+       x="5.4030032"
+       y="261.41342" />
     <rect
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect19345"
@@ -77,21 +131,164 @@
        height="54.050598"
        x="53.672619"
        y="307.9613" />
+    <rect
+       transform="scale(-1,1)"
+       style="font-variation-settings:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect1005"
+       width="1000000"
+       height="0"
+       x="-500070.62"
+       y="250.26221" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.89766604px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#009600;fill-opacity:1;stroke:none;stroke-width:0.02244158"
-       x="59.633575"
-       y="296.46994"
-       id="text1090-8-8-7"><tspan
+       id="text1558"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="translate(70.623791,13.262207)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.49612px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0311003;stroke-miterlimit:4;stroke-dasharray:none"
+       x="85.205345"
+       y="314.51007"
+       id="text1090-8-8-7-7"><tspan
          sodipodi:role="line"
-         x="59.633575"
-         y="296.46994"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.89766604px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#009600;fill-opacity:1;stroke-width:0.02244158"
-         id="tspan953-6">{{idx}}</tspan></text>
+         x="85.205345"
+         y="314.51007"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.49612px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:0.0311003;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan953-6-7">{{idx}}</tspan></text>
   </g>
   <style
      id="style_css_sheet"
      type="text/css">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+  <style
+     type="text/css"
+     id="style_css_sheet-6">
 /*
  * Below are Cascading Style Sheet (CSS) definitions in use in this file,
  * which allow easily changing how countries are displayed.
