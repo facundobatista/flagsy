@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="master-back.svg"
+   inkscape:version="1.0 (1.0+r73+1)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 60 90"
+   height="90mm"
+   width="60mm">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 258.3638 : 1"
+       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_z="939.7473 : 258.3638 : 1"
+       inkscape:persp3d-origin="469.87365 : 178.9092 : 1"
+       id="perspective2477" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="37.291069"
+       height="7.4442868"
+       id="rect1702" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="37.101608"
+       height="1.9784597"
+       id="rect1566" />
+    <rect
+       x="-15.987752"
+       y="253.24564"
+       width="14.490631"
+       height="11.501634"
+       id="rect1560" />
+    <inkscape:perspective
+       id="perspective2477-0"
+       inkscape:persp3d-origin="469.87364 : 178.90921 : 1"
+       inkscape:vp_z="939.74727 : 258.3638 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 258.3638 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <rect
+       id="rect1610"
+       height="3.6711056"
+       width="28.409258"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.2863369"
+       id="rect1646" />
+    <rect
+       id="rect1758"
+       height="7.6169376"
+       width="44.729263"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="45.125214"
+       height="5.2748437"
+       id="rect1775" />
+    <rect
+       id="rect1702-0"
+       height="8.2644214"
+       width="65.547127"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       id="rect1566-9"
+       height="1.9784597"
+       width="37.101608"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       id="rect1560-2"
+       height="11.501634"
+       width="14.490631"
+       y="253.24564"
+       x="-15.987752" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 268.3638 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="939.74728 : 268.3638 : 1"
+       inkscape:persp3d-origin="469.87365 : 188.9092 : 1"
+       id="perspective2477-5" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.6711056"
+       id="rect1610-4" />
+    <rect
+       id="rect1646-0"
+       height="3.2863369"
+       width="28.409258"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="44.729263"
+       height="7.6169376"
+       id="rect1758-5" />
+    <rect
+       id="rect1775-9"
+       height="5.2748437"
+       width="45.125214"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.2863369"
+       id="rect1646-0-7" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.2863369"
+       id="rect1149" />
+  </defs>
+  <sodipodi:namedview
+     borderlayer="true"
+     inkscape:document-rotation="0"
+     width="60mm"
+     showguides="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="28"
+     inkscape:window-x="0"
+     inkscape:window-height="997"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="175.69477"
+     inkscape:cx="68.077251"
+     inkscape:zoom="2.0000002"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-257)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <path
+       id="rect1985"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#0073e0;stroke-width:0.394306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+       d="m -1.06741,255.92932 v 92.14136 h 62.13482 v -92.14136 z m 5.50104,2.87261 h 51.13275 c 1.68056,0 3.03354,1.35296 3.03354,3.03353 v 80.13289 c 0,1.68058 -1.35298,3.03354 -3.03354,3.03354 H 4.43363 c -1.68057,0 -3.03355,-1.35296 -3.03355,-3.03354 v -80.13289 c 0,-1.68057 1.35298,-3.03353 3.03355,-3.03353 z"
+       sodipodi:nodetypes="cccccsssssssss" />
+    <rect
+       y="307.9613"
+       x="53.672619"
+       height="54.050598"
+       width="55.5625"
+       id="rect19345"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="250.26221"
+       x="-500070.62"
+       height="0"
+       width="1000000"
+       id="rect1005"
+       style="font-variation-settings:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       transform="scale(-1,1)" />
+    <text
+       transform="translate(70.623791,13.262207)"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1558"
+       xml:space="preserve" />
+    <rect
+       transform="scale(-1,1)"
+       style="font-variation-settings:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect1005-2"
+       width="1499997.8"
+       height="0"
+       x="-749908.44"
+       y="289.6647" />
+    <text
+       xml:space="preserve"
+       id="text1558-2"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560-2);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(1.4999978,0,0,1.4999978,-90.470529,-65.834763)" />
+    <text
+       transform="matrix(1.6340437,0,0,1.6340437,22.200315,-146.62218)"
+       id="text1038-0-2"
+       y="254.13358"
+       x="4.7164283"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:pre;shape-padding:0;shape-margin:0;inline-size:30.4998;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       xml:space="preserve"><tspan
+         x="4.7164283"
+         y="254.13358"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">194 cartas, tantas como países hay en el</tspan><tspan
+           y="254.13358"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="255.89747"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">mundo; cada una tiene de un lado la bandera</tspan><tspan
+           y="255.89747"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="257.66137"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">del país, y del otro lado información</tspan><tspan
+           y="257.66137"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="259.42525"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">correspondiente a ese país.</tspan></tspan></text>
+    <text
+       transform="matrix(1.9872062,0,0,1.9872062,20.617667,-239.6901)"
+       id="text1038-6-7"
+       y="254.13358"
+       x="4.7164283"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       xml:space="preserve"><tspan
+         id="tspan1441-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         y="254.13358"
+         x="4.7164283"
+         sodipodi:role="line">Contenido</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       x="4.7164283"
+       y="254.13358"
+       id="text1038-6-7-4"
+       transform="matrix(1.9872062,0,0,1.9872062,20.617667,-219.71816)"><tspan
+         sodipodi:role="line"
+         x="4.7164283"
+         y="254.13358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="tspan1441-2-2-0">Objetivo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:pre;shape-padding:0;shape-margin:0;inline-size:30.8276;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       x="4.7164283"
+       y="254.13358"
+       id="text1038-0-2-5"
+       transform="matrix(1.6340437,0,0,1.6340437,22.225679,-126.65024)"><tspan
+         x="4.7164283"
+         y="254.13358"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">Quedarse sin cartas al completar la vuelta</tspan><tspan
+           y="254.13358"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="255.89747"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">(puede ganar una persona o varias).</tspan></tspan></text>
+    <text
+       transform="matrix(1.9872062,0,0,1.9872062,20.617667,-205.66934)"
+       id="text1038-6-7-4-9"
+       y="254.13358"
+       x="4.7164283"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       xml:space="preserve"><tspan
+         id="tspan1441-2-2-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         y="254.13358"
+         x="4.7164283"
+         sodipodi:role="line">Dinámica</tspan></text>
+    <text
+       transform="matrix(1.5535916,0,0,1.5535916,22.588732,-92.243922)"
+       id="text1038-0-2-5-6"
+       y="254.13358"
+       x="4.771462"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:pre;shape-padding:0;shape-margin:0;inline-size:31.8115;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       xml:space="preserve"><tspan
+         x="4.771462"
+         y="254.13358"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">Se mezclan las cartas y se reparten cinco a cada</tspan><tspan
+           y="254.13358"> </tspan></tspan><tspan
+         x="4.771462"
+         y="255.89747"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">persona, apoyadas en la mesa con la bandera para</tspan><tspan
+           y="255.89747"> </tspan></tspan><tspan
+         x="4.771462"
+         y="257.66137"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">arriba (no se puede espiar el otro lado). El resto</tspan><tspan
+           y="257.66137"> </tspan></tspan><tspan
+         x="4.771462"
+         y="259.42525"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">se deja en un mazo. Arranca la persona más joven</tspan><tspan
+           y="259.42525"> </tspan></tspan><tspan
+         x="4.771462"
+         y="261.18914"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">de la mesa. En su turno, cada persona elige una</tspan><tspan
+           y="261.18914"> </tspan></tspan><tspan
+         x="4.771462"
+         y="262.95303"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">carta de su mazo, la pone en el centro de la mesa</tspan><tspan
+           y="262.95303"> </tspan></tspan><tspan
+         x="4.771462"
+         y="264.71691"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">y arriesga de qué país es la bandera. Si acertó,</tspan><tspan
+           y="264.71691"> </tspan></tspan><tspan
+         x="4.771462"
+         y="266.4808"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">descarta la carta, efectivamente quedándose con</tspan><tspan
+           y="266.4808"> </tspan></tspan><tspan
+         x="4.771462"
+         y="268.24468"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">una menos. Si erró, descarta la carta y saca otra</tspan><tspan
+           y="268.24468"> </tspan></tspan><tspan
+         x="4.771462"
+         y="270.00857"><tspan
+           style="baseline-shift:baseline;vector-effect:none;stop-color:#000000">del mazo.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:pre;shape-padding:0;shape-margin:0;inline-size:31.8115;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       x="4.7164283"
+       y="254.13358"
+       id="text1038-0-2-5-6-9"
+       transform="matrix(1.5535916,0,0,1.5535916,22.62929,-65.669028)"><tspan
+         x="4.7164283"
+         y="254.13358"><tspan>
+</tspan></tspan><tspan
+         x="4.7164283"
+         y="255.89747"><tspan>Para hacerlo más complicado y divertido, se</tspan><tspan></tspan><tspan
+           y="255.89747"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="257.66137"><tspan>puede acordar previamente que no sólo hay que</tspan><tspan></tspan><tspan
+           y="257.66137"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="259.42525"><tspan>arriesgar el país, sino también el continente, o la</tspan><tspan></tspan><tspan
+           y="259.42525"> </tspan></tspan><tspan
+         x="4.7164283"
+         y="261.18914"><tspan>capital, o algún gentilicio, etc.</tspan></tspan></text>
+  </g>
+  <style
+     type="text/css"
+     id="style_css_sheet">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+  <style
+     id="style_css_sheet-6"
+     type="text/css">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+  <style
+     type="text/css"
+     id="style_css_sheet-4">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+</svg>
