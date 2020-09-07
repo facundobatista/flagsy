@@ -7,155 +7,158 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60mm"
-   height="90mm"
-   viewBox="0 0 60 90"
-   version="1.1"
+   sodipodi:docname="master-front.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
-   inkscape:version="1.0 (1.0+r73+1)"
-   sodipodi:docname="master-front.svg">
+   version="1.1"
+   viewBox="0 0 60 90"
+   height="90mm"
+   width="60mm">
   <defs
      id="defs2">
     <inkscape:perspective
-       id="perspective2477"
-       inkscape:persp3d-origin="469.87365 : 178.9092 : 1"
-       inkscape:vp_z="939.7473 : 258.3638 : 1"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 258.3638 : 1"
        inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_z="939.7473 : 258.3638 : 1"
+       inkscape:persp3d-origin="469.87365 : 178.9092 : 1"
+       id="perspective2477" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="37.291069"
+       height="7.4442868"
+       id="rect1702" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="37.101608"
+       height="1.9784597"
+       id="rect1566" />
+    <rect
+       x="-15.987752"
+       y="253.24564"
+       width="14.490631"
+       height="11.501634"
+       id="rect1560" />
+    <inkscape:perspective
+       id="perspective2477-0"
+       inkscape:persp3d-origin="469.87364 : 178.90921 : 1"
+       inkscape:vp_z="939.74727 : 258.3638 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 258.3638 : 1"
        sodipodi:type="inkscape:persp3d" />
     <rect
-       id="rect1702"
-       height="7.4442868"
-       width="37.291069"
+       id="rect1610"
+       height="3.6711056"
+       width="28.409258"
+       y="253.12529"
+       x="-15.789039" />
+    <rect
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
+       height="3.2863369"
+       id="rect1646" />
+    <rect
+       id="rect1758"
+       height="7.6169376"
+       width="44.729263"
        y="244.04587"
        x="-20.275866" />
     <rect
-       id="rect1566"
+       x="-20.275866"
+       y="244.04587"
+       width="45.125214"
+       height="5.2748437"
+       id="rect1775" />
+    <rect
+       id="rect1702-0"
+       height="8.2644214"
+       width="65.547127"
+       y="244.04587"
+       x="-20.275866" />
+    <rect
+       id="rect1566-9"
        height="1.9784597"
        width="37.101608"
        y="253.12529"
        x="-15.789039" />
     <rect
-       id="rect1560"
+       id="rect1560-2"
        height="11.501634"
        width="14.490631"
        y="253.24564"
        x="-15.987752" />
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 258.3638 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="939.74727 : 258.3638 : 1"
-       inkscape:persp3d-origin="469.87364 : 178.90921 : 1"
-       id="perspective2477-0" />
-    <rect
-       x="-15.789039"
-       y="253.12529"
-       width="28.409258"
-       height="3.6711056"
-       id="rect1610" />
-    <rect
-       id="rect1646"
-       height="3.2863369"
-       width="28.409258"
-       y="253.12529"
-       x="-15.789039" />
-    <rect
-       x="-20.275866"
-       y="244.04587"
-       width="44.729263"
-       height="7.6169376"
-       id="rect1758" />
-    <rect
-       id="rect1775"
-       height="5.2748437"
-       width="45.125214"
-       y="244.04587"
-       x="-20.275866" />
-    <rect
-       x="-20.275866"
-       y="244.04587"
-       width="65.547127"
-       height="8.2644214"
-       id="rect1702-0" />
-    <rect
-       x="-15.789039"
-       y="253.12529"
-       width="37.101608"
-       height="1.9784597"
-       id="rect1566-9" />
-    <rect
-       x="-15.987752"
-       y="253.24564"
-       width="14.490631"
-       height="11.501634"
-       id="rect1560-2" />
-    <inkscape:perspective
-       id="perspective2477-5"
-       inkscape:persp3d-origin="469.87365 : 188.9092 : 1"
-       inkscape:vp_z="939.74728 : 268.3638 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 268.3638 : 1"
-       sodipodi:type="inkscape:persp3d" />
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="939.74728 : 268.3638 : 1"
+       inkscape:persp3d-origin="469.87365 : 188.9092 : 1"
+       id="perspective2477-5" />
     <rect
-       id="rect1610-4"
+       x="-15.789039"
+       y="253.12529"
+       width="28.409258"
        height="3.6711056"
+       id="rect1610-4" />
+    <rect
+       id="rect1646-0"
+       height="3.2863369"
        width="28.409258"
        y="253.12529"
        x="-15.789039" />
+    <rect
+       x="-20.275866"
+       y="244.04587"
+       width="44.729263"
+       height="7.6169376"
+       id="rect1758-5" />
+    <rect
+       id="rect1775-9"
+       height="5.2748437"
+       width="45.125214"
+       y="244.04587"
+       x="-20.275866" />
     <rect
        x="-15.789039"
        y="253.12529"
        width="28.409258"
        height="3.2863369"
-       id="rect1646-0" />
+       id="rect1646-0-7" />
     <rect
-       id="rect1758-5"
-       height="7.6169376"
-       width="44.729263"
-       y="244.04587"
-       x="-20.275866" />
-    <rect
-       x="-20.275866"
-       y="244.04587"
-       width="45.125214"
-       height="5.2748437"
-       id="rect1775-9" />
-    <rect
-       id="rect1646-0-7"
-       height="3.2863369"
-       width="28.409258"
+       x="-15.789039"
        y="253.12529"
-       x="-15.789039" />
-    <rect
-       id="rect1149"
-       height="3.2863369"
        width="28.409258"
-       y="253.12529"
-       x="-15.789039" />
+       height="3.2863369"
+       id="rect1149" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.0000002"
-     inkscape:cx="45.601548"
-     inkscape:cy="168.33292"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="997"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
-     inkscape:window-maximized="1"
-     showguides="false"
-     width="60mm"
+     inkscape:snap-global="false"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox="true"
+     borderlayer="true"
      inkscape:document-rotation="0"
-     borderlayer="true" />
+     width="60mm"
+     showguides="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="691"
+     inkscape:window-width="1360"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="211.23558"
+     inkscape:cx="-64.616896"
+     inkscape:zoom="0.65590733"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -164,177 +167,381 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
+     transform="translate(0,-257)"
      id="layer1"
-     transform="translate(0,-257)">
-    <path
-       sodipodi:nodetypes="cccccsssssssss"
-       d="m -1.06741,255.92932 v 92.14136 h 62.13482 v -92.14136 z m 5.50104,2.87261 h 51.13275 c 1.68056,0 3.03354,1.35296 3.03354,3.03353 v 80.13289 c 0,1.68058 -1.35298,3.03354 -3.03354,3.03354 H 4.43363 c -1.68057,0 -3.03355,-1.35296 -3.03355,-3.03354 v -80.13289 c 0,-1.68057 1.35298,-3.03353 3.03355,-3.03353 z"
-       style="fill:#e6e6e6;fill-opacity:1;stroke:#0073e0;stroke-width:0.394306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
-       id="rect1985" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect19345"
-       width="55.5625"
-       height="54.050598"
-       x="53.672619"
-       y="307.9613" />
-    <rect
-       transform="scale(-1,1)"
-       style="font-variation-settings:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-       id="rect1005"
-       width="1000000"
-       height="0"
-       x="-500070.62"
-       y="250.26221" />
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
     <text
-       xml:space="preserve"
-       id="text1558"
-       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560);fill:#000000;fill-opacity:1;stroke:none;"
-       transform="translate(70.623791,13.262207)" />
+       transform="matrix(1.9872062,0,0,1.9872062,20.6387,-202.93011)"
+       id="text1038-6-7"
+       y="254.13358"
+       x="4.7164283"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       xml:space="preserve"><tspan
+         id="tspan1441-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         y="254.13358"
+         x="4.7164283"
+         sodipodi:role="line">idea / producción</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        x="4.7164283"
        y="254.13358"
-       id="text1038"
-       transform="matrix(1.9872062,0,0,1.9872062,20.586822,-176.76765)"><tspan
+       id="text1038-06-8-4"
+       transform="matrix(2.7055733,0,0,2.7055733,17.216449,-380.63988)"><tspan
          sodipodi:role="line"
          x="4.7164283"
          y="254.13358"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-         id="tspan1441">proyecto</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#352a14;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="tspan1441-6-4-0">Facundo Batista</tspan></text>
+    <path
+       id="rect1985"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#0073e0;stroke-width:0.394306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+       d="m -1.06741,255.92932 v 92.14136 h 62.13482 v -92.14136 z m 5.50104,2.87261 h 51.13275 c 1.68056,0 3.03354,1.35296 3.03354,3.03353 v 80.13289 c 0,1.68058 -1.35298,3.03354 -3.03354,3.03354 H 4.43363 c -1.68057,0 -3.03355,-1.35296 -3.03355,-3.03354 v -80.13289 c 0,-1.68057 1.35298,-3.03353 3.03355,-3.03353 z"
+       sodipodi:nodetypes="cccccsssssssss" />
     <rect
-       y="289.6647"
-       x="-749908.44"
+       y="250.26221"
+       x="-500070.62"
        height="0"
-       width="1499997.8"
-       id="rect1005-2"
+       width="1000000"
+       id="rect1005"
        style="font-variation-settings:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        transform="scale(-1,1)" />
     <text
-       transform="matrix(1.4999978,0,0,1.4999978,-90.470529,-65.834763)"
-       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560-2);fill:#000000;fill-opacity:1;stroke:none;"
-       id="text1558-2"
+       transform="translate(70.623791,13.262207)"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1558"
        xml:space="preserve" />
+    <rect
+       transform="scale(-1,1)"
+       style="font-variation-settings:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect1005-2"
+       width="1499997.8"
+       height="0"
+       x="-749908.44"
+       y="289.6647" />
+    <text
+       xml:space="preserve"
+       id="text1558-2"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1560-2);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(1.4999978,0,0,1.4999978,-90.470529,-65.834763)" />
     <g
-       id="g1138"
-       transform="matrix(4.5704484,0,0,4.5704484,418.16046,-1445.8818)">
-      <path
-         id="path2831"
-         style="fill:#e6e6e6;fill-opacity:1;stroke:#0073e0;stroke-width:0.396874;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
-         d="m -88.536498,374.12454 c 2.881538,1.09825 5.957089,-0.94455 7.216376,0 v 3.95302 c -1.277458,-0.97458 -4.373967,0.98344 -7.216376,0 z"
-         sodipodi:nodetypes="ccccc" />
+       transform="translate(-2.594394e-8,-3.1971005)"
+       id="g904">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Andika;-inkscape-font-specification:Andika;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0638377"
-         x="-88.108986"
-         y="376.6991"
-         id="text2835"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         x="4.7164283"
+         y="254.13358"
+         id="text1038"
+         transform="matrix(1.9872062,0,0,1.9872062,20.586822,-176.76765)"><tspan
            sodipodi:role="line"
-           id="tspan2833"
-           x="-88.108986"
-           y="376.6991"
-           style="font-size:2.11666px;fill:#000000;fill-opacity:1;stroke-width:0.0638377">Flagsy</tspan></text>
+           x="4.7164283"
+           y="254.13358"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+           id="tspan1441">proyecto</tspan></text>
+      <text
+         transform="matrix(2.7055733,0,0,2.7055733,17.121003,-354.6509)"
+         id="text1038-06"
+         y="254.13358"
+         x="4.7164283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         xml:space="preserve"><tspan
+           id="tspan1441-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#352a14;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+           y="254.13358"
+           x="4.7164283"
+           sodipodi:role="line">bit.ly/juego-flagsy</tspan></text>
     </g>
     <text
-       transform="matrix(2.1365165,0,0,2.1365165,19.852423,-252.17052)"
-       id="text1038-0"
+       transform="matrix(1.7338039,0,0,1.7338039,21.772482,-101.52536)"
+       id="text1038-0-2"
        y="254.13358"
        x="4.7164283"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        xml:space="preserve"><tspan
-         id="tspan1441-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
          y="254.13358"
-         x="4.7164288"
-         sodipodi:role="line">El Juego de las Banderas</tspan></text>
-    <text
-       transform="matrix(2.7055733,0,0,2.7055733,17.121003,-354.6509)"
-       id="text1038-06"
-       y="254.13358"
-       x="4.7164283"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-       xml:space="preserve"><tspan
-         id="tspan1441-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#352a14;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-         y="254.13358"
          x="4.7164283"
-         sodipodi:role="line">bit.ly/juego-flagsy</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-       x="4.7164283"
-       y="254.13358"
-       id="text1038-0-2"
-       transform="matrix(1.7338039,0,0,1.7338039,21.772481,-101.52536)"><tspan
-         id="tspan882"
          sodipodi:role="line"
-         x="4.7164283"
-         y="254.13358"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">bajá e imprimí las cartas</tspan><tspan
-         id="tspan884"
-         sodipodi:role="line"
-         x="4.7164283"
+         id="tspan882">bajá e imprimí las cartas</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
          y="255.89746"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">¡es libre!</tspan></text>
-    <text
-       transform="matrix(1.9872062,0,0,1.9872062,20.627482,-190.55129)"
-       id="text1038-6"
-       y="254.13358"
-       x="4.7164283"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-       xml:space="preserve"><tspan
-         id="tspan1441-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-         y="254.13358"
          x="4.7164283"
-         sodipodi:role="line">diseño</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-       x="4.7164283"
-       y="254.13358"
-       id="text1038-06-8"
-       transform="matrix(2.7055733,0,0,2.7055733,17.185906,-368.8971)"><tspan
          sodipodi:role="line"
+         id="tspan884">¡es libre!</tspan></text>
+    <g
+       transform="translate(-4.6959288e-7,-0.77327298)"
+       id="g898">
+      <text
+         transform="matrix(1.9872062,0,0,1.9872062,20.627482,-190.55129)"
+         id="text1038-6"
+         y="254.13358"
+         x="4.7164283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         xml:space="preserve"><tspan
+           id="tspan1441-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+           y="254.13358"
+           x="4.7164283"
+           sodipodi:role="line">diseño</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          x="4.7164283"
          y="254.13358"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#352a14;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-         id="tspan1441-6-4">Manu Quiñones</tspan></text>
+         id="text1038-06-8"
+         transform="matrix(2.7055733,0,0,2.7055733,17.185906,-368.8971)"><tspan
+           sodipodi:role="line"
+           x="4.7164283"
+           y="254.13358"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#352a14;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+           id="tspan1441-6-4">Manu Quiñones</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="m 13.50896,267.31512 c 13.16993,5.01949 27.22657,-4.31702 32.98208,0 v 18.06707 c -5.83856,-4.45427 -19.99099,4.49476 -32.98208,0 z"
+       style="opacity:0.474961;fill:#b7b7b7;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+       id="path934" />
+    <g
+       transform="translate(-0.271833)"
+       id="g1365">
+      <path
+         d="m 15.540848,290.55896 0.505058,-1.77389 1.082761,0.30829 -0.06046,0.21246 -0.834465,-0.23759 -0.15013,0.5273 0.742316,0.21135 -0.05903,0.20733 -0.742316,-0.21134 -0.174911,0.61433 0.898454,0.25581 -0.06046,0.21246 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1085" />
+      <path
+         d="m 17.391684,291.06847 q -0.22192,-0.0563 -0.294518,-0.16848 -0.07261,-0.1122 -0.02866,-0.30417 l 0.370788,-1.61882 0.250773,0.0138 -0.371376,1.62142 q -0.01367,0.0597 -0.01224,0.10096 0.0019,0.0413 0.01946,0.07 0.01803,0.0287 0.05391,0.0506 0.03654,0.0193 0.09187,0.0402 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1087" />
+      <path
+         d="m 19.288343,290.77292 q -0.02022,0.13153 -0.06653,0.24019 -0.04366,0.10906 -0.128082,0.18495 -0.08134,0.0736 -0.207399,0.10542 -0.123033,0.0295 -0.299272,0.003 -0.08941,-0.0138 -0.163294,-0.0413 -0.07166,-0.0245 -0.128899,-0.0549 -0.05685,-0.033 -0.09793,-0.0635 -0.04072,-0.0332 -0.0633,-0.0609 l 0.13111,-0.18718 q 0.04916,0.0479 0.129097,0.10603 0.08295,0.0558 0.214489,0.0761 0.189404,0.0291 0.290778,-0.0522 0.101773,-0.084 0.137792,-0.3181 l 0.186547,-1.21266 0.255167,0.0393 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1089" />
+      <path
+         d="m 20.723811,291.47801 q -0.08675,0.0132 -0.229466,0.0238 -0.140031,0.0108 -0.322867,-0.007 -0.158976,-0.015 -0.263368,-0.0702 -0.104146,-0.0579 -0.162402,-0.14896 -0.05828,-0.091 -0.07669,-0.20773 -0.01813,-0.11933 -0.0047,-0.25976 l 0.07289,-0.77372 0.246426,0.0233 -0.06796,0.72073 q -0.02373,0.25172 0.04556,0.36785 0.06928,0.11613 0.257389,0.13386 0.03977,0.004 0.08238,0.005 0.04261,9.5e-4 0.08001,0.002 0.03758,-0.002 0.06701,-0.002 0.03227,-0.002 0.04603,-0.007 l 0.109631,-1.16323 0.246427,0.0233 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1091" />
+      <path
+         d="m 21.093953,290.85238 q 0.0066,-0.18351 0.06511,-0.31717 0.05837,-0.13633 0.149456,-0.22349 0.09111,-0.0871 0.207171,-0.12813 0.116048,-0.041 0.23573,-0.0365 0.279256,0.0104 0.42167,0.19146 0.142518,0.1784 0.129268,0.53479 -5.88e-4,0.0159 -0.0019,0.0425 -8.92e-4,0.0239 -0.0047,0.0451 l -0.94682,-0.0352 q 0.0076,0.21602 0.112849,0.33178 0.104886,0.11575 0.336278,0.12435 0.130322,0.005 0.218874,-0.0132 0.0913,-0.0206 0.137326,-0.0401 l 0.02686,0.20874 q -0.04613,0.0222 -0.161452,0.0446 -0.112688,0.0225 -0.256307,0.0171 -0.180862,-0.007 -0.311858,-0.0648 -0.128253,-0.0607 -0.2098,-0.15961 -0.08153,-0.0989 -0.119255,-0.23081 -0.03493,-0.13447 -0.02914,-0.29138 z m 0.954527,-0.10035 q 0.0085,-0.16746 -0.07488,-0.27711 -0.08105,-0.1122 -0.232655,-0.11784 -0.08514,-0.003 -0.152882,0.029 -0.06501,0.0295 -0.112213,0.0811 -0.04717,0.0515 -0.07631,0.11967 -0.02648,0.0682 -0.03711,0.13978 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1093" />
+      <path
+         d="m 23.498119,291.43733 q -0.0316,0.0217 -0.124286,0.0576 -0.09007,0.0332 -0.212448,0.0349 -0.125073,0.002 -0.23741,-0.0365 -0.109669,-0.0383 -0.193333,-0.11971 -0.08371,-0.084 -0.133369,-0.20839 -0.04964,-0.1244 -0.05211,-0.29738 -0.0019,-0.15169 0.04129,-0.2774 0.04347,-0.12838 0.127313,-0.22005 0.08646,-0.0944 0.210873,-0.14672 0.124323,-0.055 0.281334,-0.0572 0.172975,-0.003 0.301085,0.0224 0.13074,0.0221 0.218855,0.0421 l 0.01746,1.23479 q 0.0047,0.31935 -0.158454,0.46538 -0.162962,0.14603 -0.498272,0.15076 -0.130398,0.002 -0.247793,-0.0178 -0.114728,-0.0197 -0.200299,-0.0477 l 0.04214,-0.2162 q 0.07488,0.0282 0.181678,0.048 0.109451,0.0224 0.226543,0.0208 0.220876,-0.003 0.315436,-0.0922 0.09723,-0.0892 0.09453,-0.28081 z m -0.01718,-1.02718 q -0.0374,-0.0102 -0.101384,-0.0172 -0.06141,-0.01 -0.167802,-0.009 -0.199597,0.003 -0.306856,0.13477 -0.104611,0.13189 -0.101564,0.34745 0.0019,0.11975 0.03217,0.2045 0.03312,0.0847 0.08447,0.13988 0.05401,0.0551 0.120917,0.0808 0.06957,0.0256 0.141417,0.0246 0.09846,-9.5e-4 0.180586,-0.0291 0.0821,-0.0305 0.129459,-0.0683 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1095" />
+      <path
+         d="m 25.348186,290.79082 q 0.01,0.16471 -0.0298,0.30044 -0.03977,0.13572 -0.121638,0.23668 -0.07916,0.10079 -0.195525,0.16117 -0.116494,0.0577 -0.257285,0.0663 -0.1408,0.009 -0.263405,-0.0347 -0.122767,-0.0458 -0.216236,-0.13621 -0.09083,-0.0904 -0.146684,-0.2204 -0.0559,-0.12993 -0.06587,-0.29464 -0.0099,-0.16205 0.0299,-0.29778 0.03958,-0.13838 0.118809,-0.23918 0.08191,-0.10094 0.198354,-0.15867 0.116323,-0.0604 0.257123,-0.0689 0.1408,-0.009 0.263567,0.0373 0.122606,0.0432 0.213416,0.13371 0.09349,0.0904 0.149504,0.22289 0.0559,0.12994 0.06568,0.29199 z m -0.257692,0.0157 q -0.01414,-0.23377 -0.128652,-0.36281 -0.111985,-0.13186 -0.292629,-0.12091 -0.180643,0.0109 -0.278534,0.15554 -0.09539,0.14177 -0.08124,0.37555 0.01414,0.23378 0.126165,0.36564 0.114472,0.12904 0.295125,0.11808 0.180644,-0.0109 0.276038,-0.15272 0.09788,-0.14458 0.08371,-0.37837 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1097" />
+      <path
+         d="m 27.112786,290.2054 q -0.04926,-0.0318 -0.137792,-0.0564 -0.08855,-0.0246 -0.189043,-0.013 -0.105759,0.0123 -0.177844,0.0608 -0.06976,0.0455 -0.109403,0.11979 -0.03996,0.0716 -0.0504,0.16658 -0.01044,0.095 0.0019,0.20074 0.02781,0.24059 0.162041,0.35903 0.133938,0.11581 0.332226,0.0929 0.100472,-0.0116 0.165648,-0.0271 0.06748,-0.0185 0.10331,-0.0334 z m -0.106898,-0.92535 0.240997,-0.0707 0.232427,2.01199 q -0.08181,0.0336 -0.2113,0.0726 -0.129449,0.0391 -0.301304,0.0589 -0.158624,0.0183 -0.291338,-0.0173 -0.132704,-0.0356 -0.23329,-0.11773 -0.100577,-0.0822 -0.166085,-0.20854 -0.06321,-0.12933 -0.08238,-0.2959 -0.01832,-0.15863 0.0057,-0.29541 0.02705,-0.13708 0.09536,-0.24141 0.06834,-0.10435 0.175898,-0.17036 0.11022,-0.0663 0.258272,-0.0834 0.11898,-0.0138 0.212533,0.008 0.0962,0.0211 0.144511,0.0449 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1099" />
+      <path
+         d="m 27.72962,290.53303 q -0.02667,-0.18171 0.0066,-0.32373 0.03265,-0.14465 0.106376,-0.24692 0.07375,-0.10226 0.180444,-0.16362 0.10668,-0.0614 0.225176,-0.0788 0.276494,-0.0405 0.449431,0.11166 0.172557,0.14956 0.224274,0.50241 0.0019,0.0158 0.0066,0.0421 0.0038,0.0237 0.0038,0.0452 l -0.937462,0.13739 q 0.04708,0.21099 0.171238,0.30577 0.124181,0.0948 0.353277,0.0612 0.129031,-0.0189 0.212847,-0.0527 0.08608,-0.0368 0.127731,-0.0644 l 0.06435,0.20038 q -0.04129,0.0303 -0.150661,0.0732 -0.106746,0.0425 -0.248942,0.0634 -0.179068,0.0263 -0.318454,-0.007 -0.137136,-0.0363 -0.235293,-0.11883 -0.09817,-0.0825 -0.159203,-0.20531 -0.05875,-0.12588 -0.08153,-0.28124 z m 0.920407,-0.27209 q -0.02164,-0.16628 -0.12402,-0.25888 -0.100084,-0.0956 -0.250185,-0.0736 -0.08428,0.0123 -0.145081,0.0562 -0.05856,0.0408 -0.09562,0.10009 -0.03702,0.0592 -0.05334,0.13155 -0.01367,0.0719 -0.01111,0.1442 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1101" />
+      <path
+         d="m 30.397979,290.83342 q -0.226409,0.034 -0.336781,-0.0413 -0.110372,-0.0754 -0.14416,-0.26936 l -0.284922,-1.63611 0.236546,-0.0844 0.285368,1.63874 q 0.01054,0.0603 0.02781,0.0978 0.01737,0.0375 0.04508,0.0571 0.02771,0.0195 0.06928,0.0257 0.04119,0.004 0.100217,0.002 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1103" />
+      <path
+         d="m 31.128118,290.4915 q 0.08637,-0.0161 0.151259,-0.0309 0.06701,-0.0179 0.109575,-0.0366 l -0.07564,-0.40554 q -0.02857,-0.009 -0.09026,-0.005 -0.05951,2.6e-4 -0.14323,0.0159 -0.05495,0.0103 -0.116275,0.0298 -0.05875,0.0191 -0.106158,0.055 -0.04527,0.0328 -0.07099,0.0836 -0.02619,0.0482 -0.013,0.11883 0.02439,0.13082 0.117889,0.16753 0.09301,0.0341 0.236888,0.008 z m -0.248362,-1.2153 q 0.146513,-0.0273 0.25325,-0.007 0.108872,0.0176 0.182219,0.077 0.07545,0.0563 0.119711,0.14824 0.04375,0.0893 0.0652,0.20442 l 0.158615,0.8503 q -0.03047,0.0111 -0.08599,0.0323 -0.05353,0.0181 -0.122663,0.0391 -0.06919,0.0211 -0.151914,0.0418 -0.07963,0.023 -0.160751,0.0382 -0.115117,0.0215 -0.21632,0.0159 -0.101194,-0.006 -0.181109,-0.042 -0.08039,-0.0391 -0.135257,-0.11555 -0.05486,-0.0764 -0.07688,-0.19413 -0.02097,-0.11251 0.0085,-0.2019 0.03199,-0.0899 0.101184,-0.15425 0.06919,-0.0643 0.169473,-0.10742 0.100264,-0.0431 0.215381,-0.0645 0.03664,-0.007 0.07688,-0.009 0.03977,-0.005 0.07517,-0.003 0.03758,-0.002 0.06473,-9.5e-4 0.02715,3.5e-4 0.03806,9.5e-4 l -0.01272,-0.068 q -0.0112,-0.0602 -0.03502,-0.1153 -0.0243,-0.0577 -0.06663,-0.0959 -0.0428,-0.0407 -0.107857,-0.0557 -0.06292,-0.018 -0.157115,-4.7e-4 -0.120347,0.0225 -0.2085,0.0578 -0.08599,0.0323 -0.127095,0.0589 l -0.06634,-0.19609 q 0.04319,-0.0297 0.149656,-0.0685 0.105977,-0.0415 0.234183,-0.0653 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1105" />
+      <path
+         d="m 32.346345,290.25727 q 0.148839,-0.0293 0.211613,-0.0824 0.06539,-0.0536 0.04841,-0.13976 -0.01746,-0.0887 -0.09831,-0.1271 -0.08077,-0.0383 -0.255557,-0.0717 -0.08456,-0.0159 -0.163806,-0.0328 -0.07716,-0.02 -0.138181,-0.0541 -0.06093,-0.0341 -0.104667,-0.0905 -0.04366,-0.0565 -0.06169,-0.14788 -0.0355,-0.18017 0.07707,-0.31088 0.112052,-0.13332 0.34184,-0.17863 0.05742,-0.0113 0.116437,-0.0148 0.05846,-0.006 0.110144,-0.006 0.05116,-0.002 0.08978,9.5e-4 0.04119,0.003 0.06369,0.007 l -0.0028,0.21765 q -0.04328,-0.0132 -0.130967,-0.0176 -0.08817,-0.007 -0.205691,0.0161 -0.101839,0.0201 -0.16932,0.0768 -0.06805,0.0541 -0.05097,0.14026 0.0085,0.0444 0.03113,0.0753 0.02496,0.0304 0.06454,0.0524 0.04176,0.0189 0.09857,0.0321 0.05685,0.0132 0.135125,0.0249 0.103823,0.0176 0.186756,0.0391 0.08238,0.019 0.143903,0.0557 0.06406,0.0362 0.106215,0.0984 0.04157,0.0596 0.06065,0.15623 0.03711,0.18801 -0.08485,0.31243 -0.119341,0.1239 -0.37784,0.17488 -0.180179,0.0355 -0.288187,0.0243 -0.107505,-0.009 -0.14715,-0.0171 l 0.0028,-0.21765 q 0.04489,0.008 0.142432,0.0208 0.09758,0.0133 0.249018,-0.0165 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1107" />
+      <path
+         d="m 34.341217,290.0546 q -0.05476,0.011 -0.120546,0.0215 -0.06312,0.01 -0.12942,0.0179 -0.06368,0.008 -0.127864,0.0121 -0.06416,0.005 -0.118999,0.002 l -0.353191,-1.75328 q 0.04954,-0.0235 0.11059,-0.0439 0.06103,-0.0204 0.122605,-0.0383 0.06416,-0.0183 0.12627,-0.0336 0.06207,-0.0152 0.116882,-0.0263 0.156537,-0.0315 0.296938,-0.0354 0.143012,-0.005 0.253716,0.033 0.112792,0.0343 0.188587,0.11404 0.07583,0.0797 0.102599,0.21282 0.02999,0.14872 -0.02107,0.25944 -0.05154,0.10811 -0.159469,0.17874 0.168618,0.0149 0.283033,0.0977 0.114424,0.0829 0.151743,0.26808 0.05467,0.27134 -0.118382,0.45009 -0.170953,0.17561 -0.60405,0.26286 z m -0.410346,-0.81055 0.128243,0.63661 q 0.02923,-0.003 0.06891,-0.009 0.03445,-0.004 0.07935,-0.0105 0.04698,-0.009 0.106964,-0.0215 0.112194,-0.0226 0.208709,-0.0556 0.0986,-0.0362 0.166901,-0.0879 0.06833,-0.0518 0.09952,-0.12594 0.03379,-0.0747 0.01386,-0.17383 -0.01784,-0.0887 -0.06388,-0.14188 -0.04651,-0.0558 -0.119113,-0.0792 -0.06995,-0.0239 -0.161842,-0.0217 -0.09187,0.002 -0.201438,0.0243 z m -0.041,-0.20351 0.266121,-0.0536 q 0.09396,-0.0189 0.174787,-0.0488 0.08086,-0.0299 0.134033,-0.0758 0.05581,-0.0465 0.07868,-0.10815 0.02544,-0.0622 0.0085,-0.14564 -0.01575,-0.0783 -0.06283,-0.1231 -0.04755,-0.0475 -0.119094,-0.0656 -0.06947,-0.0214 -0.158709,-0.0197 -0.08922,0.002 -0.185779,0.0212 -0.09653,0.0195 -0.150803,0.0331 -0.05429,0.0137 -0.09757,0.0278 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1109" />
+      <path
+         d="m 35.937237,289.53911 q 0.08627,-0.0166 0.151069,-0.0318 0.06691,-0.0183 0.109356,-0.0373 l -0.07811,-0.40507 q -0.02866,-0.008 -0.09026,-0.005 -0.05951,6.3e-4 -0.143135,0.0167 -0.05486,0.0106 -0.116086,0.0306 -0.05856,0.0195 -0.105825,0.0556 -0.04508,0.0331 -0.07052,0.0841 -0.02591,0.0484 -0.01234,0.11893 0.02515,0.13067 0.118895,0.16681 0.0932,0.0335 0.236925,0.006 z m -0.25568,-1.21378 q 0.146352,-0.0282 0.253212,-0.009 0.108977,0.017 0.182684,0.0759 0.07583,0.0559 0.120594,0.14751 0.04423,0.089 0.06644,0.20403 l 0.16373,0.84934 q -0.03037,0.0113 -0.0858,0.0328 -0.05334,0.0184 -0.122416,0.0399 -0.06909,0.0215 -0.151668,0.0428 -0.07953,0.0235 -0.160513,0.0391 -0.114984,0.0222 -0.216216,0.0173 -0.101222,-0.005 -0.181355,-0.0409 -0.08067,-0.0386 -0.13596,-0.11473 -0.05533,-0.0761 -0.07802,-0.19368 -0.02164,-0.11237 0.0076,-0.20195 0.03142,-0.0901 0.100254,-0.15485 0.06881,-0.0647 0.168828,-0.10843 0.1,-0.0437 0.214982,-0.0659 0.03664,-0.007 0.07678,-0.009 0.03967,-0.005 0.07517,-0.004 0.03758,-0.002 0.06473,-0.002 0.02714,1.9e-4 0.03806,7.9e-4 l -0.0131,-0.0679 q -0.01158,-0.0601 -0.03578,-0.11508 -0.02468,-0.0576 -0.0672,-0.0955 -0.043,-0.0405 -0.108189,-0.055 -0.06302,-0.0177 -0.157115,4.7e-4 -0.120214,0.0232 -0.208149,0.0591 -0.0858,0.0328 -0.126734,0.0597 l -0.06758,-0.19569 q 0.043,-0.03 0.149238,-0.0694 0.10573,-0.042 0.233784,-0.0667 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1111" />
+      <path
+         d="m 36.646809,288.2166 q 0.08029,-0.0354 0.215295,-0.083 0.134963,-0.0475 0.315949,-0.0786 0.16262,-0.0279 0.278278,7.8e-4 0.115212,0.0261 0.192583,0.0992 0.07954,0.07 0.125615,0.18096 0.04603,0.1109 0.06995,0.24992 l 0.131622,0.76592 -0.243939,0.0419 -0.122606,-0.71345 q -0.02164,-0.1259 -0.05533,-0.21193 -0.03104,-0.0865 -0.07991,-0.1348 -0.04878,-0.0483 -0.118449,-0.0607 -0.07004,-0.015 -0.167128,0.002 -0.03939,0.007 -0.08086,0.0166 -0.04148,0.01 -0.07991,0.0218 -0.03626,0.009 -0.06682,0.0196 -0.0279,0.0102 -0.04062,0.0151 l 0.19788,1.15151 -0.24394,0.042 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1113" />
+      <path
+         d="m 39.123116,288.08784 q -0.04973,-0.031 -0.138674,-0.0542 -0.08893,-0.0232 -0.189224,-0.01 -0.10555,0.0139 -0.176857,0.0636 -0.069,0.0467 -0.107477,0.12152 -0.03882,0.0722 -0.04774,0.16736 -0.0085,0.0951 0.0047,0.20068 0.03161,0.24012 0.167745,0.35642 0.13577,0.11365 0.333668,0.0876 0.100264,-0.0132 0.165193,-0.0298 0.0672,-0.0195 0.102769,-0.035 z m -0.121628,-0.92353 0.239839,-0.0745 0.264459,2.00801 q -0.08134,0.0348 -0.210122,0.076 -0.128804,0.0411 -0.300317,0.0637 -0.158321,0.0209 -0.291575,-0.0126 -0.133265,-0.0334 -0.235142,-0.114 -0.101877,-0.0806 -0.169387,-0.20586 -0.0652,-0.12832 -0.08713,-0.29456 -0.02088,-0.15832 9.49e-4,-0.29546 0.02487,-0.1375 0.09149,-0.24292 0.06663,-0.10541 0.173165,-0.17312 0.109156,-0.0681 0.256914,-0.0875 0.118742,-0.0157 0.212628,0.004 0.09652,0.0195 0.145204,0.0426 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1115" />
+      <path
+         d="m 39.812994,288.40783 q -0.01205,-0.18324 0.03208,-0.32218 0.04404,-0.1416 0.125681,-0.23768 0.08172,-0.0961 0.192897,-0.14875 0.111216,-0.0527 0.230718,-0.0606 0.278848,-0.0184 0.439134,0.14708 0.160104,0.16281 0.183576,0.51867 9.49e-4,0.0159 0.0028,0.0425 0.0019,0.0239 3.23e-4,0.0453 l -0.945416,0.0624 q 0.03009,0.21406 0.146362,0.31841 0.116237,0.10436 0.347288,0.0891 0.130123,-0.009 0.216359,-0.0356 0.08874,-0.0299 0.132467,-0.0541 l 0.04821,0.20487 q -0.04356,0.0269 -0.156014,0.0609 -0.109783,0.0339 -0.253193,0.0434 -0.180587,0.012 -0.316869,-0.0325 -0.133815,-0.0472 -0.2251,-0.13718 -0.0913,-0.09 -0.142366,-0.21733 -0.04859,-0.13015 -0.05894,-0.28684 z m 0.939142,-0.19798 q -0.0085,-0.16748 -0.103026,-0.26793 -0.09216,-0.10328 -0.243532,-0.0933 -0.08494,0.006 -0.149095,0.0445 -0.0616,0.0361 -0.103282,0.0922 -0.04167,0.0561 -0.06368,0.12688 -0.01936,0.0706 -0.02259,0.14286 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1117" />
+      <path
+         d="m 41.955424,287.61006 q 0.03198,5.3e-4 0.07175,0.007 0.04252,0.004 0.08229,0.0121 0.03986,0.006 0.07166,0.0145 0.03455,0.006 0.0504,0.0115 l -0.04622,0.21484 q -0.02914,-0.0111 -0.09806,-0.0256 -0.06625,-0.0171 -0.1727,-0.0189 -0.06919,-9.5e-4 -0.138646,0.0137 -0.06672,0.0121 -0.08808,0.0172 l -0.01955,1.1629 -0.24748,-0.004 0.02221,-1.32522 q 0.08836,-0.0305 0.219196,-0.0549 0.130882,-0.0271 0.293208,-0.0244 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1119" />
+      <path
+         d="m 42.936953,288.92676 q 0.08703,0.012 0.15329,0.0184 0.06929,0.004 0.115544,-2.1e-4 l 0.05628,-0.40867 q -0.02458,-0.0168 -0.08409,-0.0331 -0.05657,-0.0185 -0.140924,-0.0302 -0.05533,-0.008 -0.11973,-0.009 -0.06169,-4.4e-4 -0.118097,0.0187 -0.05334,0.0168 -0.09377,0.057 -0.04005,0.0375 -0.04992,0.10865 -0.01813,0.13182 0.05894,0.19618 0.07745,0.0617 0.222481,0.0817 z m 0.148117,-1.23155 q 0.147644,0.0203 0.242384,0.0737 0.09775,0.0511 0.148582,0.13061 0.05382,0.0773 0.06672,0.17845 0.01329,0.0985 -0.0028,0.21456 l -0.118002,0.85688 q -0.03236,9.2e-4 -0.09178,0.004 -0.05647,2.8e-4 -0.128727,-0.002 -0.07232,-0.002 -0.157372,-0.009 -0.08286,-0.004 -0.164556,-0.0146 -0.11601,-0.016 -0.210294,-0.0532 -0.09434,-0.0372 -0.158577,-0.0971 -0.06397,-0.0625 -0.09187,-0.15235 -0.0279,-0.0898 -0.01158,-0.20846 0.01557,-0.11337 0.07166,-0.18893 0.05875,-0.0752 0.14471,-0.11439 0.08599,-0.0392 0.194729,-0.0484 0.10873,-0.009 0.224739,0.007 0.03692,0.005 0.07574,0.0157 0.0392,0.009 0.07232,0.0207 0.03616,0.0104 0.06179,0.0193 0.02563,0.009 0.03578,0.013 l 0.0095,-0.0685 q 0.0085,-0.0606 0.0028,-0.12046 -0.0047,-0.0624 -0.03293,-0.112 -0.02771,-0.0522 -0.08476,-0.0869 -0.054,-0.037 -0.148924,-0.0501 -0.121287,-0.0167 -0.216103,-0.0109 -0.09187,0.004 -0.139186,0.0158 l -9.49e-4,-0.20701 q 0.0504,-0.0145 0.163635,-0.0177 0.113646,-0.006 0.242839,0.012 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1121" />
+      <path
+         d="m 44.181669,289.19884 q 0.143971,0.0478 0.224749,0.0325 0.08333,-0.0144 0.110989,-0.0977 0.02847,-0.0859 -0.02287,-0.15904 -0.05144,-0.0732 -0.18705,-0.18832 -0.06568,-0.0554 -0.126364,-0.10927 -0.05733,-0.0555 -0.09358,-0.1152 -0.03626,-0.0597 -0.04641,-0.1304 -0.01016,-0.0707 0.01917,-0.15908 0.05789,-0.17429 0.22024,-0.23254 0.163208,-0.0607 0.38548,0.013 0.05552,0.0184 0.108625,0.0445 0.05391,0.0235 0.09852,0.0495 0.04546,0.0235 0.07745,0.0454 0.03455,0.0227 0.0522,0.037 l -0.110049,0.1878 q -0.03113,-0.0328 -0.105285,-0.0798 -0.07327,-0.0496 -0.186945,-0.0873 -0.0985,-0.0327 -0.185171,-0.0166 -0.0858,0.0136 -0.113514,0.0969 -0.01424,0.0429 -0.01,0.0808 0.0066,0.0387 0.03037,0.0774 0.02696,0.037 0.06995,0.0765 0.04299,0.0395 0.105294,0.0883 0.08172,0.0664 0.143221,0.12608 0.06236,0.0571 0.09776,0.11941 0.03796,0.0631 0.04394,0.13797 0.0066,0.0724 -0.0242,0.16583 -0.06036,0.18186 -0.227824,0.23001 -0.164907,0.049 -0.414959,-0.0341 -0.174284,-0.0579 -0.262722,-0.12091 -0.08931,-0.0605 -0.119607,-0.0874 l 0.110049,-0.18781 q 0.0354,0.0286 0.113713,0.0883 0.0783,0.0597 0.224834,0.10832 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.80416px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0251628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1123" />
+    </g>
+    <path
+       id="path1227"
+       style="fill:none;fill-opacity:1;stroke:#0073e0;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+       d="m 13.50896,267.31512 c 13.16993,5.01949 27.22657,-4.31702 32.98208,0 v 18.06707 c -5.83856,-4.45427 -19.99099,4.49476 -32.98208,0 z"
+       sodipodi:nodetypes="ccccc" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-       x="4.7164283"
-       y="254.13358"
-       id="text1038-6-7"
-       transform="matrix(1.9872062,0,0,1.9872062,20.6387,-204.94485)"><tspan
-         sodipodi:role="line"
-         x="4.7164283"
-         y="254.13358"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#19a033;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-         id="tspan1441-2-2">idea / producción</tspan></text>
-    <text
-       transform="matrix(2.7055733,0,0,2.7055733,17.216449,-382.65462)"
-       id="text1038-06-8-4"
-       y="254.13358"
-       x="4.7164283"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#004300;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="text1262"
+       y="279.46439"
+       x="16.470615"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.00347px;line-height:1.25;font-family:Andika;-inkscape-font-specification:Andika;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.271541"
        xml:space="preserve"><tspan
-         id="tspan1441-6-4-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#352a14;fill-opacity:1;stroke:none;stroke-width:0.0265121;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-         y="254.13358"
-         x="4.7164283"
-         sodipodi:role="line">Facundo Batista</tspan></text>
+         style="font-size:9.00347px;fill:#000000;fill-opacity:1;stroke-width:0.271541"
+         y="279.46439"
+         x="16.470615"
+         id="tspan1260"
+         sodipodi:role="line">Flagsy</tspan></text>
   </g>
   <style
-     id="style_css_sheet"
+     type="text/css"
+     id="style_css_sheet">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.5;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+/*
+ * land
+ */
+.landxx
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke:white;
+   stroke-opacity: 1;
+   stroke-width:0.5;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke-width: 0.3;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:white;
+   fill-opacity:1;
+   stroke:none;
+   stroke-opacity: 1;
+   stroke-width:0.3;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+</style>
+  <style
+     id="style_css_sheet-6"
      type="text/css">
 /*
  * Below are Cascading Style Sheet (CSS) definitions in use in this file,
@@ -465,137 +672,7 @@
 </style>
   <style
      type="text/css"
-     id="style_css_sheet-6">
-/*
- * Below are Cascading Style Sheet (CSS) definitions in use in this file,
- * which allow easily changing how countries are displayed.
- *
- */
-
-/*
- * circles around small countries
- *
- * Change opacity to 1 to display all circles.
- *
- */
-.circlexx
-{
-   opacity:0;
-   fill:#b9b9b9;
-   fill-opacity:1;
-   stroke:black;
-   stroke-width:0.5;
-   stroke-miterlimit:3.97446823;
-   stroke-dasharray:none;
-   stroke-opacity:1;
-}
-
-/*
- * Smaller circles around French DOMs and Chinese SARs
- *
- * Change opacity to 1 to display all subnational circles.
- *
- */
-.subxx
-{
-   opacity:0;
-   stroke-width:0.3;
-}
-
-/*
- * land
- */
-.landxx
-{
-   fill: #b9b9b9;
-   fill-opacity: 1;
-   stroke:white;
-   stroke-opacity: 1;
-   stroke-width:0.5;
-   stroke-miterlimit: 3.97446823;
-   stroke-dasharray: none;
-}
-
-/*
- * Styles for coastlines of islands with no borders
- */
-.coastxx
-{
-   stroke-width: 0.3;
-}
-
-/*
- * Additional style rules
- *
- * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
- *
- * Color a few countries:
- *
- * .gb, .au, .nc
- * {
- *    fill:       #ff0000;
- * }
- *
- * Color a few small country circles (and the countries):
- *
- * .ms, .ky
- * {
- *    opacity:    1;
- *    fill:       #ff0000;
- * }
- *
- */
-/*
- * Antarctica
- */
-
-.aq
-{
-   fill:#e6e6e6;
-}
-
-/*
- * Sea
- */
-
-.ocean
-{
-   opacity: 1;
-   color: #000000;
-   fill:white;
-   fill-opacity:1;
-   fill-rule:nonzero;
-   stroke:#000000;
-   stroke-width:0.5;
-   stroke-linecap:butt;
-   stroke-linejoin:miter;
-   marker:none;
-   marker-start:none;
-   marker-mid:none;
-   marker-end:none;
-   stroke-miterlimit:1;
-   stroke-dasharray:none;
-   stroke-dashoffset:0;
-   stroke-opacity:1;
-   visibility:visible;
-   display:inline;
-   overflow:visible;
-}
-
-.lake
-{
-   fill:white;
-   fill-opacity:1;
-   stroke:none;
-   stroke-opacity: 1;
-   stroke-width:0.3;
-   stroke-miterlimit: 3.97446823;
-   stroke-dasharray: none;
-}
-</style>
-  <style
-     id="style_css_sheet-4"
-     type="text/css">
+     id="style_css_sheet-4">
 /*
  * Below are Cascading Style Sheet (CSS) definitions in use in this file,
  * which allow easily changing how countries are displayed.
