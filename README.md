@@ -22,11 +22,11 @@ For example for Argentina:
 
 - Front:
 
-![Front image for Argentina's card](card-front-argentina.pdf)
+![Front image for Argentina's card](card-front-argentina.png)
 
 - Back:
 
-![Back image for Argentina's card](card-back-argentina.pdf)
+![Back image for Argentina's card](card-back-argentina.png)
 
 
 You just have to send them to print in the size that you want (each card PDF default size is 60mm x 90mm, very standard for these games).
