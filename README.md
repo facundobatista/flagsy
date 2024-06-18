@@ -2,6 +2,7 @@
 
 A board game to help kids to learn world countries' flags.
 
+
 ## How to play
 
 Very simple: shuffle all cards, deal 4 to each participant, "big flag picture" up. In turn, each participant proposes one of own card and tries to "guess" to which country it belongs.
@@ -11,6 +12,26 @@ If nailed it, the card is discarded, the participant has a card less, if zero he
 If wrong, the card is discarded, the partipant gets another one from the deck.
 
 Variations can be made as the cards have other country info (e.g., to get rid of the card the participant must guess the country name and its capital).
+
+
+## Very nice project but I only want to play
+
+Wonderful! Just download the `fulldeck.tar.xz` file, it has all the cards already produced. For each country you have the front and the back image.
+
+For example for Argentina:
+
+- Front:
+
+![Front image for Argentina's card](card-front-argentina.pdf)
+
+- Back:
+
+![Back image for Argentina's card](card-back-argentina.pdf)
+
+
+You just have to send them to print in the size that you want (each card PDF default size is 60mm x 90mm, very standard for these games).
+
+Note that cards have a small code in one corner (`2B` for the examples above); that is not used in the game itself, it's just to validate that the back and the front of each printed card match ok.
 
 
 ## What this project is about
@@ -58,7 +79,7 @@ Tools and whatever necessary to build PDFs/images/files to build the game.
 
     3.2. Run `generate_cards.py` to generate all PDFs with the cards
 
-    3.3. Smash all of them together for easier inspection: 
+    3.3. Smash all of them together for easier inspection:
 
     ```
     pdftk result/card-back*pdf cat output ../final-back.pdf
